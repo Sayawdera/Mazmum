@@ -1,0 +1,8 @@
+//
+// Created by Core VOID on 15.02.2024.
+//
+
+#ifndef MAZMUM_PERFORMANCE_H
+#define MAZMUM_PERFORMANCE_H
+
+#endif //MAZMUM_PERFORMANCE_H
