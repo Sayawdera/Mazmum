@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main() {
-    printf("Hello, World!\n");
+int main()
+{
+    printf("Mazmum\n");
+
     return 0;
 }
