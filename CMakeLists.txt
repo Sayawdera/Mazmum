@@ -5,9 +5,9 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Mazmum main.c
         Engine/BFG.c
-        Engine/Headers/Bfg.h
+        Engine/Headers/BFG.h
         Engine/CRC.c
-        Engine/Headers/Crc.h
+        Engine/Headers/CRC.h
         Engine/DADES.c
         Engine/Headers/Des.h
         Engine/HmaCMD.c

@@ -39,7 +39,7 @@ extern char *MAZMUM_STRCASESTR(const char *haystack, const char *needle);
 extern char *MAZMUM_STRREP(char *string, char *oldpiece, char *newpiece);
 extern char *MAZMUM_RECEIVE_LINE(int32_t socket);
 
-extern unsigned char MAZMUM_conv64(unsigned char in);
+extern unsigned char MAZMUM_CONV64(unsigned char in);
 
 extern int32_t MAZMUM_CONNECT_TO_SSL(int32_t socket, char *hostname);
 extern int32_t MAZMUM_CONNECT_SSL(char *host, int32_t port, char *hostname);
@@ -57,6 +57,7 @@ extern int32_t MAZMUM_MEMSEARCH(char *haystack, int32_t hlen, char *needle, int3
 #ifdef HAVE_PCRE
 int32_t MAZMUM_STRING_MATCH(char *str, const char *regex);
 #endif
+
 char *MAZMUM_STRING_REPLACE(const char *string, const char *substr, const char *replacement);
 
 
@@ -69,10 +70,10 @@ int32_t mazmum_proxy_count;
 int32_t mazmum_use_proxy;
 int32_t mazmum_selected_proxy;
 
-char mazmum_proxy_string_ip[MAX_PROXY_COUNT][36];
-int32_t mazmum_proxy_string_port[MAX_PROXY_COUNT];
-char mazmum_proxy_string_type[MAX_PROXY_COUNT][10];
-char *mazmum_proxy_authentication[MAX_PROXY_COUNT];
+char mazmum_proxy_string_ip[MAZMUM_MAX_PROXY_COUNT][36];
+int32_t mazmum_proxy_string_port[MAZMUM_MAX_PROXY_COUNT];
+char mazmum_proxy_string_type[MAZMUM_MAX_PROXY_COUNT][10];
+char *mazmum_proxy_authentication[MAZMUM_MAX_PROXY_COUNT];
 char *mazmum_cmd_line_target;
 
 

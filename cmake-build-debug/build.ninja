@@ -55,20 +55,20 @@ build CMakeFiles/Mazmum.dir/main.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/M
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir
 
-build CMakeFiles/Mazmum.dir/Engine/Bfg.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Bfg.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Bfg.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/BFG.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/BFG.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\BFG.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/Crc.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Crc.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Crc.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/CRC.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/CRC.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\CRC.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/Des.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Des.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Des.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/DADES.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/DADES.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\DADES.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
@@ -85,11 +85,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumAdam.c.obj: C_COMPILER__Mazmum_unscanne
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumAfp.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumAfp.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumAfp.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Net/MazmumAfp.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumAfp.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumAfp.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumAsterisk.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumAsterisk.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumAsterisk.c.obj.d
@@ -103,11 +103,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumCiscoEnbl.c.obj: C_COMPILER__Mazmum_uns
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumCisco.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumCisco.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumCisco.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Net/MazmumCisco.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumCisco.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumCisco.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumCobaltStrike.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumCobaltStrike.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumCobaltStrike.c.obj.d
@@ -121,11 +121,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumCsv.c.obj: C_COMPILER__Mazmum_unscanned
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumFireBird.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumFireBird.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumFireBird.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumFireBird.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumFireBird.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumFireBird.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumFTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumFTP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumFTP.c.obj.d
@@ -181,11 +181,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumIDP.c.obj: C_COMPILER__Mazmum_unscanned
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumMemCached.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumMemCached.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumMemCached.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMemCached.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMemCached.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMemCached.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumMod.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumMod.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumMod.c.obj.d
@@ -193,23 +193,23 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumMod.c.obj: C_COMPILER__Mazmum_unscanned
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumMongoDB.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumMongoDB.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumMongoDB.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMongoDB.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMongoDB.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMongoDB.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumMySQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumMySQL.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumMySQL.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMySQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMySQL.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMySQL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumMSSQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumMSSQL.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumMSSQL.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMSSQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMSSQL.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMSSQL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumNCP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumNCP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumNCP.c.obj.d
@@ -217,11 +217,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumNCP.c.obj: C_COMPILER__Mazmum_unscanned
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumNNTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumNNTP.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumNNTP.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Net/MazmumNNTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumNNTP.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumNNTP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumOracleListener.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumOracleListener.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumOracleListener.c.obj.d
@@ -259,11 +259,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumPOP.c.obj: C_COMPILER__Mazmum_unscanned
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumPostgreSQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumPostgreSQL.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumPostgreSQL.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumPostgreSQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumPostgreSQL.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumPostgreSQL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumRadmin.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumRadmin.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumRadmin.c.obj.d
@@ -277,11 +277,11 @@ build CMakeFiles/Mazmum.dir/Engine/MazmumRDP.c.obj: C_COMPILER__Mazmum_unscanned
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
 
-build CMakeFiles/Mazmum.dir/Engine/MazmumRedis.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumRedis.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumRedis.c.obj.d
+build CMakeFiles/Mazmum.dir/Engine/Data/MazmumRedis.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumRedis.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumRedis.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
 
 build CMakeFiles/Mazmum.dir/Engine/MazmumRexec.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/MazmumRexec.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\MazmumRexec.c.obj.d
@@ -421,11 +421,11 @@ build CMakeFiles/Mazmum.dir/Engine/Net/MazmumXMPP.c.obj: C_COMPILER__Mazmum_unsc
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
 
-build CMakeFiles/Mazmum.dir/Engine/Mazmum.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Mazmum.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Mazmum.c.obj.d
+build CMakeFiles/Mazmum.dir/MAZM/Mazmum.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/Mazmum.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\Mazmum.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
 
 build CMakeFiles/Mazmum.dir/Engine/NTLM.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/NTLM.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\NTLM.c.obj.d
@@ -459,7 +459,7 @@ build CMakeFiles/Mazmum.dir/Config/Config.c.obj: C_COMPILER__Mazmum_unscanned_De
 #############################################
 # Link the executable Mazmum.exe
 
-build Mazmum.exe: C_EXECUTABLE_LINKER__Mazmum_Debug CMakeFiles/Mazmum.dir/main.c.obj CMakeFiles/Mazmum.dir/Engine/Bfg.c.obj CMakeFiles/Mazmum.dir/Engine/Crc.c.obj CMakeFiles/Mazmum.dir/Engine/Des.c.obj CMakeFiles/Mazmum.dir/Engine/HmaCMD.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAdam.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAfp.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAsterisk.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCiscoEnbl.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCisco.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCobaltStrike.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCsv.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumFireBird.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumFTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTPForm.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxy.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxyUrlEnum.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumICQ.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumIMAP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumIRC.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumIDP.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumMemCached.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumMod.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumMongoDB.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumMySQL.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumMSSQL.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumNCP.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumNNTP.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumOracleListener.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumOracleSid.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumOracle.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPCanyWhere.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPcNfs.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPOP.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPostgreSQL.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRadmin.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRDP.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRedis.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRexec.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRLogin.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRpCap.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRsh.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRtSp.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumS7300.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSapr.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSip.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSmb.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSmbT.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTPE.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSNMP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSOCKSF.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSSH.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSSHKey.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSVN.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumTeamSpeak.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumTelNet.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumTime.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAuthD.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumVNC.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumXMPP.c.obj CMakeFiles/Mazmum.dir/Engine/Mazmum.c.obj CMakeFiles/Mazmum.dir/Engine/NTLM.c.obj CMakeFiles/Mazmum.dir/Engine/PwInspector.c.obj CMakeFiles/Mazmum.dir/Engine/SASL.c.obj CMakeFiles/Mazmum.dir/Config/Config.c.obj
+build Mazmum.exe: C_EXECUTABLE_LINKER__Mazmum_Debug CMakeFiles/Mazmum.dir/main.c.obj CMakeFiles/Mazmum.dir/Engine/BFG.c.obj CMakeFiles/Mazmum.dir/Engine/CRC.c.obj CMakeFiles/Mazmum.dir/Engine/DADES.c.obj CMakeFiles/Mazmum.dir/Engine/HmaCMD.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAdam.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumAfp.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAsterisk.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCiscoEnbl.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumCisco.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCobaltStrike.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumCsv.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumFireBird.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumFTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTPForm.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxy.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxyUrlEnum.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumICQ.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumIMAP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumIRC.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumIDP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMemCached.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumMod.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMongoDB.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMySQL.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMSSQL.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumNCP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumNNTP.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumOracleListener.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumOracleSid.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumOracle.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPCanyWhere.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPcNfs.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumPOP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumPostgreSQL.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRadmin.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRDP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumRedis.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRexec.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRLogin.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRpCap.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRsh.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumRtSp.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumS7300.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSapr.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSip.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSmb.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSmbT.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTPE.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSNMP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSOCKSF.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSSH.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSSHKey.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumSVN.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumTeamSpeak.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumTelNet.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumTime.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumAuthD.c.obj CMakeFiles/Mazmum.dir/Engine/MazmumVNC.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumXMPP.c.obj CMakeFiles/Mazmum.dir/MAZM/Mazmum.c.obj CMakeFiles/Mazmum.dir/Engine/NTLM.c.obj CMakeFiles/Mazmum.dir/Engine/PwInspector.c.obj CMakeFiles/Mazmum.dir/Engine/SASL.c.obj CMakeFiles/Mazmum.dir/Config/Config.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mazmum.dir

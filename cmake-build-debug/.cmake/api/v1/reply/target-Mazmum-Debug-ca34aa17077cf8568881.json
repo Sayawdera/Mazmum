@@ -261,7 +261,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/Bfg.c",
+			"path" : "Engine/BFG.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -272,7 +272,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/Crc.c",
+			"path" : "Engine/CRC.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -283,7 +283,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/Des.c",
+			"path" : "Engine/DADES.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -311,7 +311,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumAfp.c",
+			"path" : "Engine/Net/MazmumAfp.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -329,7 +329,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumCisco.c",
+			"path" : "Engine/Net/MazmumCisco.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -347,7 +347,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumFireBird.c",
+			"path" : "Engine/Data/MazmumFireBird.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -412,7 +412,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumMemCached.c",
+			"path" : "Engine/Data/MazmumMemCached.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -429,19 +429,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumMongoDB.c",
+			"path" : "Engine/Data/MazmumMongoDB.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumMySQL.c",
+			"path" : "Engine/Data/MazmumMySQL.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumMSSQL.c",
+			"path" : "Engine/Data/MazmumMSSQL.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -453,7 +453,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumNNTP.c",
+			"path" : "Engine/Net/MazmumNNTP.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -495,7 +495,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumPostgreSQL.c",
+			"path" : "Engine/Data/MazmumPostgreSQL.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -513,7 +513,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/MazmumRedis.c",
+			"path" : "Engine/Data/MazmumRedis.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -662,7 +662,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/Mazmum.c",
+			"path" : "MAZM/Mazmum.c",
 			"sourceGroupIndex" : 0
 		},
 		{
