@@ -4,22 +4,22 @@ project(Mazmum C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Mazmum main.c
-        Engine/Bfg.c
+        Engine/BFG.c
         Engine/Headers/Bfg.h
-        Engine/Crc.c
+        Engine/CRC.c
         Engine/Headers/Crc.h
-        Engine/Des.c
+        Engine/DADES.c
         Engine/Headers/Des.h
         Engine/HmaCMD.c
         Engine/Headers/HmaCMD.h
         Engine/MazmumAdam.c
-        Engine/MazmumAfp.c
+        Engine/Net/MazmumAfp.c
         Engine/MazmumAsterisk.c
         Engine/MazmumCiscoEnbl.c
-        Engine/MazmumCisco.c
+        Engine/Net/MazmumCisco.c
         Engine/MazmumCobaltStrike.c
         Engine/MazmumCsv.c
-        Engine/MazmumFireBird.c
+        Engine/Data/MazmumFireBird.c
         Engine/Net/MazmumFTP.c
         Engine/Net/MazmumHTTPForm.c
         Engine/Net/MazmumProxy.c
@@ -30,24 +30,24 @@ add_executable(Mazmum main.c
         Engine/MazmumIMAP.c
         Engine/Net/MazmumIRC.c
         Engine/MazmumIDP.c
-        Engine/MazmumMemCached.c
+        Engine/Data/MazmumMemCached.c
         Engine/MazmumMod.c
         Engine/Headers/MazmumMod.h
-        Engine/MazmumMongoDB.c
-        Engine/MazmumMySQL.c
-        Engine/MazmumMSSQL.c
+        Engine/Data/MazmumMongoDB.c
+        Engine/Data/MazmumMySQL.c
+        Engine/Data/MazmumMSSQL.c
         Engine/MazmumNCP.c
-        Engine/MazmumNNTP.c
+        Engine/Net/MazmumNNTP.c
         Engine/MazmumOracleListener.c
         Engine/MazmumOracleSid.c
         Engine/MazmumOracle.c
         Engine/MazmumPCanyWhere.c
         Engine/MazmumPcNfs.c
         Engine/MazmumPOP.c
-        Engine/MazmumPostgreSQL.c
+        Engine/Data/MazmumPostgreSQL.c
         Engine/MazmumRadmin.c
         Engine/MazmumRDP.c
-        Engine/MazmumRedis.c
+        Engine/Data/MazmumRedis.c
         Engine/MazmumRexec.c
         Engine/MazmumRLogin.c
         Engine/MazmumRpCap.c
@@ -72,7 +72,7 @@ add_executable(Mazmum main.c
         Engine/MazmumVNC.c
         Scripts/MazmumWizard.sh
         Engine/Net/MazmumXMPP.c
-        Engine/Mazmum.c
+        MAZM/Mazmum.c
         Engine/Headers/Mazmum.h
         Engine/Headers/LibPqFe.h
         Engine/NTLM.c
