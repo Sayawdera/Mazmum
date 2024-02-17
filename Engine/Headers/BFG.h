@@ -23,7 +23,8 @@ typedef struct
     char *arg;
     char *crs;
     char *ptr;
-    uint32_t disable_symbols;
+    uint32_t mazmum_disable_symbols;
+
 } MAZMUM_BFG_OPTION;
 
 extern MAZMUM_BFG_OPTION mazmum_bfg_options;

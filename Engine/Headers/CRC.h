@@ -2,6 +2,7 @@
 #define MAZMUM_CRC_H
 
 #include <sys/types.h>
+#include <stdint.h>
 
 #ifndef HAVE_ZLIB
 uint32_t MazmumCRC(const void *buf, uint32_t size);
