@@ -7,7 +7,7 @@
 
 #ifdef __MAZMUM
 #include <sys/int_types.h>
-#elif defined(__FreeBSD__) || defined(__IBMCPP__) || defined(_AIX__)
+#elif defined(__FreeBSD__) || defined(__IBMCPP__) || defined(_AIX__) || defined(__linux__) || defined(__unix__)
 #include <inttypes.h>
 #else
 #include <stdint.h>
