@@ -10,15 +10,15 @@ add_executable(Mazmum main.c
         Engine/Headers/CRC.h
         Engine/DADES.c
         Engine/Headers/Des.h
-        Engine/HmaCMD.c
+        MAZM/HmaCMD.c
         Engine/Headers/HmaCMD.h
-        Engine/MazmumAdam.c
+        MAZM/MazmumAdam.c
         Engine/Net/MazmumAfp.c
-        Engine/MazmumAsterisk.c
-        Engine/MazmumCiscoEnbl.c
+        MAZM/MazmumAsterisk.c
+        MAZM/MazmumCiscoEnbl.c
         Engine/Net/MazmumCisco.c
-        Engine/MazmumCobaltStrike.c
-        Engine/MazmumCsv.c
+        MAZM/MazmumCobaltStrike.c
+        MAZM/MazmumCsv.c
         Engine/Data/MazmumFireBird.c
         Engine/Net/MazmumFTP.c
         Engine/Net/MazmumHTTPForm.c
@@ -27,49 +27,49 @@ add_executable(Mazmum main.c
         Engine/Net/MazmumHTTP.c
         Engine/Headers/Net/MazmumHTTP.h
         Engine/Net/MazmumICQ.c
-        Engine/MazmumIMAP.c
+        MAZM/MazmumIMAP.c
         Engine/Net/MazmumIRC.c
-        Engine/MazmumIDP.c
+        MAZM/MazmumIDP.c
         Engine/Data/MazmumMemCached.c
-        Engine/MazmumMod.c
+        MAZM/MazmumMod.c
         Engine/Headers/MazmumMod.h
         Engine/Data/MazmumMongoDB.c
         Engine/Data/MazmumMySQL.c
         Engine/Data/MazmumMSSQL.c
-        Engine/MazmumNCP.c
+        MAZM/MazmumNCP.c
         Engine/Net/MazmumNNTP.c
-        Engine/MazmumOracleListener.c
-        Engine/MazmumOracleSid.c
-        Engine/MazmumOracle.c
-        Engine/MazmumPCanyWhere.c
-        Engine/MazmumPcNfs.c
-        Engine/MazmumPOP.c
-        Engine/Data/MazmumPostgreSQL.c
-        Engine/MazmumRadmin.c
-        Engine/MazmumRDP.c
-        Engine/Data/MazmumRedis.c
-        Engine/MazmumRexec.c
-        Engine/MazmumRLogin.c
-        Engine/MazmumRpCap.c
-        Engine/MazmumRsh.c
-        Engine/MazmumRtSp.c
-        Engine/MazmumS7300.c
-        Engine/MazmumSapr.c
-        Engine/MazmumSip.c
-        Engine/MazmumSmb.c
-        Engine/MazmumSmbT.c
+        MAZM/MazmumOracleListener.c
+        MAZM/MazmumOracleSid.c
+        MAZM/MazmumOracle.c
+        MAZM/MazmumPCanyWhere.c
+        MAZM/MazmumPcNfs.c
+        MAZM/MazmumPOP.c
+        MAZM/Data/MazmumPostgreSQL.c
+        MAZM/MazmumRadmin.c
+        MAZM/MazmumRDP.c
+        MAZM/Data/MazmumRedis.c
+        MAZM/MazmumRexec.c
+        MAZM/MazmumRLogin.c
+        MAZM/MazmumRpCap.c
+        MAZM/MazmumRsh.c
+        MAZM/MazmumRtSp.c
+        MAZM/MazmumS7300.c
+        MAZM/MazmumSapr.c
+        MAZM/MazmumSip.c
+        MAZM/MazmumSmb.c
+        MAZM/MazmumSmbT.c
         Engine/Net/MazmumSMTPE.c
         Engine/Net/MazmumSMTP.c
         Engine/Net/MazmumSNMP.c
         Engine/Net/MazmumSOCKSF.c
         Engine/Net/MazmumSSH.c
-        Engine/MazmumSSHKey.c
-        Engine/MazmumSVN.c
-        Engine/MazmumTeamSpeak.c
+        MAZM/MazmumSSHKey.c
+        MAZM/MazmumSVN.c
+        MAZM/MazmumTeamSpeak.c
         Engine/Net/MazmumTelNet.c
-        Engine/MazmumTime.c
-        Engine/MazmumAuthD.c
-        Engine/MazmumVNC.c
+        MAZM/MazmumTime.c
+        MAZM/MazmumAuthD.c
+        MAZM/MazmumVNC.c
         Scripts/MazmumWizard.sh
         Engine/Net/MazmumXMPP.c
         MAZM/Mazmum.c

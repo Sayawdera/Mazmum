@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "MLTable": "yaml",
+        "hmacmd.h": "c",
+        "functional": "cpp"
+    }
+}
