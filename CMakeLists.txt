@@ -10,7 +10,7 @@ add_executable(Mazmum main.c
         Engine/Headers/CRC.h
         Engine/DADES.c
         Engine/Headers/Des.h
-        MAZM/HmaCMD.c
+        Engine/HmaCMD.c
         Engine/Headers/HmaCMD.h
         MAZM/MazmumAdam.c
         Engine/Net/MazmumAfp.c

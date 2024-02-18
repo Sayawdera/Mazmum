@@ -47,7 +47,7 @@ extern init32_t mazmum_debug;
 | в зависимости от переданных флагов.
 |
 |=========================================================================
- */
+*/
 static int32_t Mazmum_Add_Single_Char(char ch, char flags, int32_t *crs_len)
 {
     if ((ch >= '2' && ch <= '9') || ch == '0')
@@ -109,7 +109,7 @@ static int32_t Mazmum_Add_Single_Char(char ch, char flags, int32_t *crs_len)
 |
 |
 |=========================================================================
- */
+*/
 int32_t Mazmum_Bfg_Init(char *arg)
 {
     int32_t I = 0;
@@ -298,7 +298,7 @@ int32_t Mazmum_Bfg_Init(char *arg)
 |   неосуществимыми в разумные сроки.
 |
 |=========================================================================
- */
+*/
 uint64_t Mazmum_Bfg_Get_PCount()
 {
     int32_t I;
@@ -345,7 +345,7 @@ uint64_t Mazmum_Bfg_Get_PCount()
 |
 |
 |=========================================================================
- */
+*/
 char *Mazmum_Bfg_Next()
 {
     int32_t I;

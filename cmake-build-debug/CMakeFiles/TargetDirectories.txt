@@ -1,3 +1,0 @@
-E:/MyProjects/HackToolsTest/Mazmum/cmake-build-debug/CMakeFiles/Mazmum.dir
-E:/MyProjects/HackToolsTest/Mazmum/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/MyProjects/HackToolsTest/Mazmum/cmake-build-debug/CMakeFiles/rebuild_cache.dir

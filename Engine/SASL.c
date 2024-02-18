@@ -79,7 +79,7 @@ int32_t Mazmum_Sasl_SaslPrep(const char *In, __MAZMUM_SASL_SASLPREP_FLAGS Flags,
         }
     #endif
     #else
-        size_t I = strlen(In);;
+        size_t I = strlen(In);
         size_t InLen = strlen(In);
 
         for (I = 0; I < InLen; I++)
@@ -87,7 +87,7 @@ int32_t Mazmum_Sasl_SaslPrep(const char *In, __MAZMUM_SASL_SASLPREP_FLAGS Flags,
             if (In[I] & 0x80)
             {
                 *Out = NULL;
-                MAZMUM_REPORT(stderr, "[ ERROR ]: Can't convert UTF-8, you should install libidn\n");
+                MAZMUM_REPORT(stderr, "[ ERROR ]: Can't convert UTF-8, you should install libidinal\n");
                 return -1;
             }
         }
@@ -103,3 +103,185 @@ int32_t Mazmum_Sasl_SaslPrep(const char *In, __MAZMUM_SASL_SASLPREP_FLAGS Flags,
     
     return 0;
 }
+
+/*
+|=========================================================================
+|    Mazmum_Sasl_Plain()
+|=========================================================================
+|
+| Функция для формирования строки аутентификации в формате SASL PLAIN.
+|
+| Параметры:
+| - Result: Указатель на буфер, в который будет записан результат.
+| - Login: Указатель на строку с именем пользователя.
+| - Password: Указатель на строку с паролем пользователя.
+|
+| Возвращает:
+| - Указатель на буфер с сформированной строкой или NULL в случае ошибки.
+|
+|=========================================================================
+*/
+char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password)
+{
+    char *PrePLogin;
+    char *PrePPasswd;
+    int32_t rc = Mazmum_Sasl_SaslPrep(Login, MAZMUM_SASL_ALLOW_UNASSIGNED, &PrePLogin);
+
+    if (rc)
+    {
+        Result = NULL;
+        return Result;
+    }
+    rc = Mazmum_Sasl_SaslPrep(Password, 0, &PrePPasswd);
+
+    if (rc)
+    {
+        free(PrePLogin);
+        Result = NULL;
+        return Result;
+    }
+
+    if (2 * strlen(PrePLogin) + 3 + strlen(PrePPasswd) < 180)
+    {
+        strcpy(Result, PrePLogin);
+        strcpy(Result + strlen(PrePLogin) + 1, PrePLogin);
+        strcpy(Result + 2 * strlen(PrePLogin) + 2, PrePPasswd);
+        MAZMUM_TOBASE64((unsigned char *)Result, strlen(PrePLogin) * 2 + strlen(PrePPasswd) + 2, 250);
+    }
+    free(PrePLogin);
+    free(PrePPasswd);
+    return Result;
+}
+
+#ifdef LIBOPENSSL_
+
+
+/*
+|=========================================================================
+|    Mazmum_Sasl_Cram_Md5()
+|=========================================================================
+|
+|
+|
+|=========================================================================
+*/
+char *Mazmum_Sasl_Cram_Md5(char *Result, char *Password, char *Challenge)
+{
+    char ipad[64];
+    char Opad[64];
+    unsigned char Mazmum_Md5_Raw[MD5_DIGEST_LENGTH];
+    Mazmum_Md5_Ctx md5c;
+    int32_t I;
+    int32_t RC;
+    char *PrePPasswd;
+}
+
+/*
+|=========================================================================
+|    Mazmum_Sasl_Cram_Sha1()
+|=========================================================================
+|
+|
+|
+|=========================================================================
+*/
+char *Mazmum_Sasl_Cram_Sha1(char *Result, char *Password, char *Challenge)
+{
+    char ipad[64];
+    char Opad[64];
+    unsigned char Mazmum_Md5_Raw[SHA_DIGEST_LENGTH];
+    Mazmum_Md5_Ctx md5c;
+    int32_t I;
+    int32_t RC;
+    char *PrePPasswd;
+}
+
+/*
+|=========================================================================
+|    Mazmum_Sasl_Cram_Sha256()
+|=========================================================================
+|
+|
+|
+|=========================================================================
+*/
+char *Mazmum_Sasl_Cram_Sha256(char *Result, char *Password, char *Challenge)
+{
+    char ipad[64];
+    char Opad[64];
+    unsigned char Mazmum_Md5_Raw[SHA256_DIGEST_LENGTH];
+    Mazmum_Md5_Ctx md5c;
+    int32_t I;
+    int32_t RC;
+    char *PrePPasswd;
+}
+
+/*
+|=========================================================================
+|    Mazmum_Sasl_Digest_Md5()
+|=========================================================================
+|
+|
+|
+|=========================================================================
+*/
+char *Mazmum_Sasl_Digest_Md5(char *Result, char *Login, char *Password, char *Buffer, char *Miscptr, char *Type, char *WebTarget, int32_t WebPort, char *Header)
+{
+    char *PBuffer = NULL;
+    int32_t Array_Size = 10;
+    unsigned char Response[MD5_DIGEST_LENGTH];
+    char *Array[Array_Size];
+    char Buffer1[500];
+    char Buffer2[500];
+    char Nonce[200];
+    char Realm[200];
+    char Algo[20];
+    int32_t I = 0;
+    int32_t Ind = 0;
+    int32_t LastPos = 0;
+    int32_t CurrentPost = 0;
+    int32_t IntQ = 0;
+    int32_t AuthFInd = 0;
+    MD5_CTX md5c;
+    char *PrePLogin;
+    char *PrePPasswd;
+    int32_t rc = Mazmum_Sasl_Prep(Login, MAZMUM_ALLOW_UNSIGNED, &PrePLogin);
+}
+
+/*
+|=========================================================================
+|    Mazmum_Sasl_Scram_Sha1()
+|=========================================================================
+|
+|
+|
+|=========================================================================
+*/
+char *Mazmum_Sasl_Scram_Sha1(char *Result, char *Password, char *ClientFirstMessageBare, char *ServerFirstMessage)
+{
+    int32_t SaltLen = 0;
+    int32_t Iter = 4096;
+    char *Salt;
+    char *Nonce;
+    char *IC;
+    uint32_t ResultLen = 0;
+    char ClientFinalMessageWaitHoutProof[200];
+    char Buffer[500];
+    unsigned char SaltedPassword[SHA_DIGEST_LENGTH];
+    unsigned char ClientKey[SHA_DIGEST_LENGTH];
+    unsigned char StoreKet[SHA_DIGEST_LENGTH];
+    unsigned char ClientSignature[SHA_DIGEST_LENGTH];
+    char AuthMessage[1024];
+    char ClientProof[SHA_DIGEST_LENGTH];
+    unsigned char ClientProof_B64[50];
+    char *PrePPasswd;
+    int32_t rc = Mazmum_Sasl_SaslPrep(pass, 0 ,&PrePPasswd);
+}
+
+
+
+
+
+
+
+
