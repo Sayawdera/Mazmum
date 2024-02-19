@@ -44,10 +44,10 @@ add_executable(Mazmum main.c
         MAZM/MazmumPCanyWhere.c
         MAZM/MazmumPcNfs.c
         MAZM/MazmumPOP.c
-        MAZM/Data/MazmumPostgreSQL.c
+        Engine/Data/MazmumPostgreSQL.c
         MAZM/MazmumRadmin.c
         MAZM/MazmumRDP.c
-        MAZM/Data/MazmumRedis.c
+        Engine/Data/MazmumRedis.c
         MAZM/MazmumRexec.c
         MAZM/MazmumRLogin.c
         MAZM/MazmumRpCap.c

@@ -1,0 +1,3 @@
+/Users/corevoid/Desktop/MyProjects/Hacking/Mazmum/cmake-build-debug/CMakeFiles/Mazmum.dir
+/Users/corevoid/Desktop/MyProjects/Hacking/Mazmum/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/corevoid/Desktop/MyProjects/Hacking/Mazmum/cmake-build-debug/CMakeFiles/rebuild_cache.dir

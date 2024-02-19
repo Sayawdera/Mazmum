@@ -1,9 +1,8 @@
-#include "Engine/Headers/SASL.h"
 #include <stdint.h>
-#include <stdio.h> 
+#include <stdio.h>
+#include "Headers/SASL.h"
 
-extern int32_t mazmum_selected_proxy;
-extern enum MAZMUM_SASL_SASLPREP_FLAGS __MAZMUM_SASL_SASLPREP_FLAGS;
+
 
 /*
 |=========================================================================
@@ -24,8 +23,7 @@ extern enum MAZMUM_SASL_SASLPREP_FLAGS __MAZMUM_SASL_SASLPREP_FLAGS;
 */
 int32_t Mazmum_Print_HEX(unsigned char *Buf, int32_t Len)
 {
-    int32_t I;
-    int32_t J;
+    int32_t I, J;
 
     for (I = 0, J = 0; I < Len; I++)
     {
@@ -59,7 +57,7 @@ int32_t Mazmum_Print_HEX(unsigned char *Buf, int32_t Len)
 |
 |=========================================================================
 */
-int32_t Mazmum_Sasl_SaslPrep(const char *In, __MAZMUM_SASL_SASLPREP_FLAGS Flags, char **Out)
+int32_t Mazmum_Sasl_SaslPrep(const char *In, MAZMUM_SASL_SASLPREP_FLAGS Flags, char **Out)
 {
     #if LIBIDN
         int32_t rc;
@@ -79,8 +77,7 @@ int32_t Mazmum_Sasl_SaslPrep(const char *In, __MAZMUM_SASL_SASLPREP_FLAGS Flags,
         }
     #endif
     #else
-        size_t I = strlen(In);
-        size_t InLen = strlen(In);
+        size_t I, InLen = strlen(In);
 
         for (I = 0; I < InLen; I++)
         {
@@ -123,8 +120,7 @@ int32_t Mazmum_Sasl_SaslPrep(const char *In, __MAZMUM_SASL_SASLPREP_FLAGS Flags,
 */
 char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password)
 {
-    char *PrePLogin;
-    char *PrePPasswd;
+    char *PrePLogin, *PrePPasswd;
     int32_t rc = Mazmum_Sasl_SaslPrep(Login, MAZMUM_SASL_ALLOW_UNASSIGNED, &PrePLogin);
 
     if (rc)
@@ -154,7 +150,7 @@ char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password)
 }
 
 #ifdef LIBOPENSSL_
-
+#endif
 
 /*
 |=========================================================================
@@ -167,14 +163,24 @@ char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password)
 */
 char *Mazmum_Sasl_Cram_Md5(char *Result, char *Password, char *Challenge)
 {
-    char ipad[64];
-    char Opad[64];
+    char Ipad[64], Opad[64];
     unsigned char Mazmum_Md5_Raw[MD5_DIGEST_LENGTH];
     Mazmum_Md5_Ctx md5c;
-    int32_t I;
-    int32_t RC;
+    int32_t I, RC;
     char *PrePPasswd;
+
+    if (Challenge == NULL)
+    {
+        Result = NULL;
+        return Result;
+    }
+    RC = Mazmum_Sasl_SaslPrep(Password, 0, &PrePPasswd);
+
+
 }
+
+
+
 
 /*
 |=========================================================================
@@ -187,12 +193,10 @@ char *Mazmum_Sasl_Cram_Md5(char *Result, char *Password, char *Challenge)
 */
 char *Mazmum_Sasl_Cram_Sha1(char *Result, char *Password, char *Challenge)
 {
-    char ipad[64];
-    char Opad[64];
+    char Ipad[64], Opad[64];
     unsigned char Mazmum_Md5_Raw[SHA_DIGEST_LENGTH];
     Mazmum_Md5_Ctx md5c;
-    int32_t I;
-    int32_t RC;
+    int32_t I, RC;
     char *PrePPasswd;
 }
 
@@ -207,12 +211,10 @@ char *Mazmum_Sasl_Cram_Sha1(char *Result, char *Password, char *Challenge)
 */
 char *Mazmum_Sasl_Cram_Sha256(char *Result, char *Password, char *Challenge)
 {
-    char ipad[64];
-    char Opad[64];
+    char Ipad[64], Opad[64];
     unsigned char Mazmum_Md5_Raw[SHA256_DIGEST_LENGTH];
     Mazmum_Md5_Ctx md5c;
-    int32_t I;
-    int32_t RC;
+    int32_t I, RC;
     char *PrePPasswd;
 }
 
@@ -231,20 +233,10 @@ char *Mazmum_Sasl_Digest_Md5(char *Result, char *Login, char *Password, char *Bu
     int32_t Array_Size = 10;
     unsigned char Response[MD5_DIGEST_LENGTH];
     char *Array[Array_Size];
-    char Buffer1[500];
-    char Buffer2[500];
-    char Nonce[200];
-    char Realm[200];
-    char Algo[20];
-    int32_t I = 0;
-    int32_t Ind = 0;
-    int32_t LastPos = 0;
-    int32_t CurrentPost = 0;
-    int32_t IntQ = 0;
-    int32_t AuthFInd = 0;
+    char Buffer1[500], Buffer2[500], Nonce[200], Realm[200], Algo[20];
+    int32_t I = 0, Ind = 0, LastPos = 0, CurrentPost = 0, IntQ = 0, AuthFInd = 0;
     MD5_CTX md5c;
-    char *PrePLogin;
-    char *PrePPasswd;
+    char *PrePLogin, *PrePPasswd;
     int32_t rc = Mazmum_Sasl_Prep(Login, MAZMUM_ALLOW_UNSIGNED, &PrePLogin);
 }
 
@@ -261,20 +253,13 @@ char *Mazmum_Sasl_Scram_Sha1(char *Result, char *Password, char *ClientFirstMess
 {
     int32_t SaltLen = 0;
     int32_t Iter = 4096;
-    char *Salt;
-    char *Nonce;
-    char *IC;
+    char *Salt, *Nonce, *IC, *PrePPasswd;
     uint32_t ResultLen = 0;
-    char ClientFinalMessageWaitHoutProof[200];
-    char Buffer[500];
-    unsigned char SaltedPassword[SHA_DIGEST_LENGTH];
-    unsigned char ClientKey[SHA_DIGEST_LENGTH];
-    unsigned char StoreKet[SHA_DIGEST_LENGTH];
-    unsigned char ClientSignature[SHA_DIGEST_LENGTH];
+    char ClientFinalMessageWaitHoutProof[200], Buffer[500];
+    unsigned char SaltedPassword[SHA_DIGEST_LENGTH], ClientKey[SHA_DIGEST_LENGTH], StoreKet[SHA_DIGEST_LENGTH], ClientSignature[SHA_DIGEST_LENGTH];
     char AuthMessage[1024];
     char ClientProof[SHA_DIGEST_LENGTH];
     unsigned char ClientProof_B64[50];
-    char *PrePPasswd;
     int32_t rc = Mazmum_Sasl_SaslPrep(pass, 0 ,&PrePPasswd);
 }
 

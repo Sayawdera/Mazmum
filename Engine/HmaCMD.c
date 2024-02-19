@@ -1,13 +1,12 @@
 #ifdef HmaCMD_H 
+#endif
 
-#include <"string.h>
-#include <inttype.h>
+#include <string.h>
+#include <inttypes.h>
 #include "Headers/HmaCMD.h"
 
 #define ZERO(X) memset((chat *)&(X), 0, sizeof(X))
 
-extern MAZMUM_HMACMD_CONTEXT __mazmum_hmacmd_context;
-#endif
 /*
 |==============================================================================
 |    MAZMUM_HMACMD_INIT_RFC()
@@ -18,14 +17,14 @@ extern MAZMUM_HMACMD_CONTEXT __mazmum_hmacmd_context;
 |
 |==============================================================================
 */
-void MAZMUM_HMACMD_INIT_RFC(const unsigned char *Key, int32_t Key_Len, __mazmum_hmacmd_context *Ctx)
+void MAZMUM_HMACMD_INIT_RFC(const unsigned char *Key, int32_t Key_Len, MAZMUM_HMACMD_CONTEXT *Ctx)
 {
     int32_t I;
     unsigned char TK[16];
 
     if (Key_Len > 64)
     {
-        __mazmum_hmacmd_context tctx;
+        MAZMUM_HMACMD_CONTEXT tctx;
 
         MAZMUM_HMAC_MD
         MAZMUM_HMAC_MD_UPDATE();
@@ -77,7 +76,7 @@ void MAZMUM_HMAC_MD_UPDATE()
 */
 void MAZMUM_HMAC_MD_FINAL(unsigned char &Digest, __mazmum_hmacmd_context *Ctx)
 {
-    __mazmum_hmacmd_context.MAZMUM_MD_CTX CTX_O;
+    MAZMUM_HMACMD_CONTEXT.MAZMUM_MD_CTX CTX_O;
     
 }
 
@@ -94,7 +93,7 @@ void MAZMUM_HMAC_MD_FINAL(unsigned char &Digest, __mazmum_hmacmd_context *Ctx)
 */
 void MAZMUM_HMAC_MD(unsigned char Key[16], unsigned char *Data, int32_t Data_Len, unsigned char *Digest)
 {
-    __mazmum_hmacmd_context Ctx;
+    MAZMUM_HMACMD_CONTEXT Ctx;
 
     MAZMUM_HMAC_MD_INIT_LINK_TO_64(Key, 16, &Ctx);
 
