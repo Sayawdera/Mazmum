@@ -5,13 +5,13 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Mazmum main.c
         Engine/BFG.c
-        Engine/Headers/BFG.h
+        Kernel/BFG.h
         Engine/CRC.c
-        Engine/Headers/CRC.h
+        Kernel/CRC.h
         Engine/DADES.c
-        Engine/Headers/Des.h
+        Kernel/Des.h
         Engine/HmaCMD.c
-        Engine/Headers/HmaCMD.h
+        Kernel/HmaCMD.h
         MAZM/MazmumAdam.c
         Engine/Net/MazmumAfp.c
         MAZM/MazmumAsterisk.c
@@ -25,14 +25,14 @@ add_executable(Mazmum main.c
         Engine/Net/MazmumProxy.c
         Engine/Net/MazmumProxyUrlEnum.c
         Engine/Net/MazmumHTTP.c
-        Engine/Headers/Net/MazmumHTTP.h
+        Kernel/Net/MazmumHTTP.h
         Engine/Net/MazmumICQ.c
         MAZM/MazmumIMAP.c
         Engine/Net/MazmumIRC.c
         MAZM/MazmumIDP.c
         Engine/Data/MazmumMemCached.c
         MAZM/MazmumMod.c
-        Engine/Headers/MazmumMod.h
+        Kernel/AlGhadab/MazmumMod.h
         Engine/Data/MazmumMongoDB.c
         Engine/Data/MazmumMySQL.c
         Engine/Data/MazmumMSSQL.c
@@ -73,13 +73,12 @@ add_executable(Mazmum main.c
         Scripts/MazmumWizard.sh
         Engine/Net/MazmumXMPP.c
         MAZM/Mazmum.c
-        Engine/Headers/Mazmum.h
-        Engine/Headers/LibPqFe.h
+        Kernel/LibPqFe.h
         Engine/NTLM.c
-        Engine/Headers/NTLM.h
-        Engine/Headers/Performance.h
-        Engine/Headers/PostgresExt.h
+        Kernel/NTLM.h
+        Kernel/Performance.h
+        Kernel/Data/PostgresExt.h
         Engine/PwInspector.c
         Engine/SASL.c
-        Engine/Headers/SASL.h
+        Kernel/SASL.h
         Config/Config.c)

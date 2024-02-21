@@ -12,7 +12,7 @@
 #else
 #include <stdint.h>
 #endif
-#include "Headers/BFG.h"
+#include "../Kernel/BFG.h"
 
 
 MAZMUM_BFG_OPTION __mazmum_bfg_options;

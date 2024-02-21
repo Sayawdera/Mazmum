@@ -1,4 +1,4 @@
-#include "Mazmum.c"
+#include "Mazmum.h"
 
 #ifndef __WINT__
 

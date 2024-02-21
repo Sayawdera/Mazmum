@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "MazmumMod.h"
+#include "AlGhadab/MazmumMod.h"
 #include "NTLM.h"
 
 

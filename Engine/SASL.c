@@ -1,7 +1,8 @@
 #include <stdint.h>
 #include <stdio.h>
-#include "Headers/SASL.h"
-
+#include "../Kernel/SASL.h"
+#include <CommonCrypto/CommonDigest.h>
+#include <openssl/md5.h>
 
 
 /*

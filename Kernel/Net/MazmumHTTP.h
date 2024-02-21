@@ -2,7 +2,7 @@
 #define MAZMUM_MAZMUMHTTP_H
 
 
-#include "../MazmumMod.h"
+#include "../AlGhadab/MazmumMod.h"
 
 #define MAZMUM_HEADER_TYPE_USER_HEADER 'h'
 #define MAZMUM_HEADER_TYPE_USER_HEADER_REPL 'H'

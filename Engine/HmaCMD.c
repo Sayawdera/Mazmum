@@ -3,7 +3,7 @@
 
 #include <string.h>
 #include <inttypes.h>
-#include "Headers/HmaCMD.h"
+#include "../Kernel/HmaCMD.h"
 
 #define ZERO(X) memset((chat *)&(X), 0, sizeof(X))
 

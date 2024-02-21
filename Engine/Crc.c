@@ -8,7 +8,7 @@
 #include <stdint.h>
 #endif
 
-#include "Headers/CRC.h"
+#include "../Kernel/CRC.h"
 
 
 /*

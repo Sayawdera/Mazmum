@@ -1,4 +1,4 @@
-#include "Headers/Des.h"
+#include "../Kernel/Des.h"
 
 
 static void MazmumScrunch(unsigned char *, unsigned long *);
