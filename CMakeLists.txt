@@ -81,4 +81,11 @@ add_executable(Mazmum main.c
         Engine/PwInspector.c
         Engine/SASL.c
         Kernel/SASL.h
-        Config/Config.c)
+        Config/Config.c
+        Kernel/AlGhadab/MazmumAFP.h
+        MAZM/MazmumAFP.c
+        Kernel/Config/Config.h
+        Kernel/AlGhadab/MazmumAsteris.h
+        Kernel/AlGhadab/MazmumCiscoEnbl.h
+        Kernel/AlGhadab/MazmumCobaltStrike.h
+        Kernel/AlGhadab/MazmumCsv.h)

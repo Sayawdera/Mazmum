@@ -7,7 +7,7 @@
 #define MAZMUM_HEADER_TYPE_USER_HEADER 'h'
 #define MAZMUM_HEADER_TYPE_USER_HEADER_REPL 'H'
 #define MAZMUM_HEADER_TYPE_DEFAULT 'D'
-#define MAZMUM_HEADER_TYPE_DEFAULT_REPL 'd
+#define MAZMUM_HEADER_TYPE_DEFAULT_REPL 'd'
 
 typedef struct MAZMUM_NODE_HEADER mazmum_node_header_t, *mazmum_ptr_node_header;
 

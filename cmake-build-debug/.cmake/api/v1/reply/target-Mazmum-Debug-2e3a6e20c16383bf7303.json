@@ -112,10 +112,11 @@
 				66,
 				68,
 				69,
-				72,
+				71,
+				75,
 				76,
-				77,
-				79
+				78,
+				80
 			]
 		}
 	],
@@ -211,10 +212,11 @@
 				66,
 				68,
 				69,
-				72,
+				71,
+				75,
 				76,
-				77,
-				79
+				78,
+				80
 			]
 		},
 		{
@@ -228,11 +230,16 @@
 				22,
 				29,
 				70,
-				71,
+				72,
 				73,
 				74,
-				75,
-				78
+				77,
+				79,
+				81,
+				82,
+				83,
+				84,
+				85
 			]
 		},
 		{
@@ -259,7 +266,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/BFG.h",
+			"path" : "Kernel/BFG.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -270,7 +277,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/CRC.h",
+			"path" : "Kernel/CRC.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -281,7 +288,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/Des.h",
+			"path" : "Kernel/Des.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -292,7 +299,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/HmaCMD.h",
+			"path" : "Kernel/HmaCMD.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -375,7 +382,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/Net/MazmumHTTP.h",
+			"path" : "Kernel/Net/MazmumHTTP.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -416,7 +423,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/MazmumMod.h",
+			"path" : "Kernel/AlGhadab/MazmumMod.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -660,12 +667,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/Mazmum.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Engine/Headers/LibPqFe.h",
+			"path" : "Kernel/LibPqFe.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -676,17 +678,17 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/NTLM.h",
+			"path" : "Kernel/NTLM.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/Performance.h",
+			"path" : "Kernel/Performance.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/PostgresExt.h",
+			"path" : "Kernel/Data/PostgresExt.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -703,7 +705,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Engine/Headers/SASL.h",
+			"path" : "Kernel/SASL.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -711,6 +713,42 @@
 			"compileGroupIndex" : 0,
 			"path" : "Config/Config.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumAFP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MAZM/MazmumAFP.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Config/Config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumAsteris.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumCiscoEnbl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumCobaltStrike.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumCsv.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
