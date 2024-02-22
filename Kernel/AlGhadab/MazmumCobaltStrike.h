@@ -5,10 +5,10 @@
 #include <stdint.h>
 #include <stdio.h>
 
-void Mazmum_Service_CobalStrike(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName);
+void MAZMUM_SERVICE_COBALTSTRIKE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName);
 
 
-int32_t Mazmum_Start_CobalStrike(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp);
-int32_t Mazmum_Service_CobalstStrike_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName);
+int32_t MAZMUM_START_COBALTSTRIKE(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp);
+int32_t MAZMUM_SERVICE_COBALTSTRIKE_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName);
 
 #endif MAZMUM_MAZMUMCOBALTSTRIKE_H

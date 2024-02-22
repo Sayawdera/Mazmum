@@ -20,7 +20,7 @@ extern void MAZMUM_REGISTER_SOCKET(int32_t s);
 extern void MAZMUM_COMPLETED_PAIR();
 extern void MAZMUM_COMPLETED_PAIR_FOUND();
 extern void MAZMUM_COMPLETED_PAIR_SKIP();
-extern void MAZMUM_REPORT_FOUND(int32_t port, char *svc, FILE *fp);
+extern void MAZMUM_REPORT_FOUND(int32_t PORT, char *svc, FILE *fp);
 extern void MAZMUM_REPORT_PASSWORD_FOUND(int32_t port, char *ip, char *svc, FILE *fp);
 extern void MAZMUM_REPORT_FOUND_HOST(int32_t port, char *ip, char *svc, FILE *fp);
 extern void MAZMUM_REPORT_FOUND_HOST_MSG(int32_t port, char *ip, char *svc, FILE *fp, char *msg);

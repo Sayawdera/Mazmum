@@ -82,10 +82,13 @@ add_executable(Mazmum main.c
         Engine/SASL.c
         Kernel/SASL.h
         Config/Config.c
-        Kernel/AlGhadab/MazmumAFP.h
+        Kernel/Net/MazmumAFP.h
         MAZM/MazmumAFP.c
         Kernel/Config/Config.h
         Kernel/AlGhadab/MazmumAsteris.h
-        Kernel/AlGhadab/MazmumCiscoEnbl.h
+        Kernel/Net/MazmumCiscoEnbl.h
         Kernel/AlGhadab/MazmumCobaltStrike.h
-        Kernel/AlGhadab/MazmumCsv.h)
+        Kernel/AlGhadab/MazmumCsv.h
+        Kernel/Data/MazmumFireBird.h
+        Kernel/Net/MazmumFTP.h
+        Kernel/Net/MazmumHTTPForm.h)

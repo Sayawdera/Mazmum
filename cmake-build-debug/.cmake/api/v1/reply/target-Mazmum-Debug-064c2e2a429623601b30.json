@@ -239,7 +239,10 @@
 				82,
 				83,
 				84,
-				85
+				85,
+				86,
+				87,
+				88
 			]
 		},
 		{
@@ -716,7 +719,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Kernel/AlGhadab/MazmumAFP.h",
+			"path" : "Kernel/Net/MazmumAFP.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -737,7 +740,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Kernel/AlGhadab/MazmumCiscoEnbl.h",
+			"path" : "Kernel/Net/MazmumCiscoEnbl.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -748,6 +751,21 @@
 		{
 			"backtrace" : 1,
 			"path" : "Kernel/AlGhadab/MazmumCsv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Data/MazmumFireBird.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Net/MazmumFTP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Net/MazmumHTTPForm.h",
 			"sourceGroupIndex" : 1
 		}
 	],
