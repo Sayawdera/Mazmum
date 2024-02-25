@@ -23,7 +23,6 @@ add_executable(Mazmum main.c
         Engine/Net/MazmumFTP.c
         Engine/Net/MazmumHTTPForm.c
         Engine/Net/MazmumProxy.c
-        Engine/Net/MazmumProxyUrlEnum.c
         Engine/Net/MazmumHTTP.c
         Kernel/Net/MazmumHTTP.h
         Engine/Net/MazmumICQ.c
@@ -86,9 +85,21 @@ add_executable(Mazmum main.c
         MAZM/MazmumAFP.c
         Kernel/Config/Config.h
         Kernel/AlGhadab/MazmumAsteris.h
-        Kernel/Net/MazmumCiscoEnbl.h
         Kernel/AlGhadab/MazmumCobaltStrike.h
         Kernel/AlGhadab/MazmumCsv.h
         Kernel/Data/MazmumFireBird.h
         Kernel/Net/MazmumFTP.h
-        Kernel/Net/MazmumHTTPForm.h)
+        Kernel/Net/MazmumHTTPForm.h
+        Kernel/Net/MazmumTelNet.h
+        Kernel/Net/MazmumXMPP.h
+        Kernel/Net/MazmumSSH.h
+        Kernel/Net/MazmumSOCKSF.h
+        Kernel/Net/MazmumSMTP.h
+        Kernel/Net/MazmumSNMP.h
+        Kernel/Net/MazmumProxy.h
+        Kernel/Net/MazmumNNTP.h
+        Kernel/Net/MazmumIRC.h
+        Kernel/Net/MazmumICQ.h
+        Kernel/Net/MazmumTUEPE.h
+        Engine/Net/MazmumTUEPE.c
+        Kernel/AlGhadab/MazmumIMAP.h)

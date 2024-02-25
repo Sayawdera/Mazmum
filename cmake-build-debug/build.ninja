@@ -54,544 +54,408 @@ build CMakeFiles/Mazmum.dir/main.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/M
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Bfg.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Bfg.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Bfg.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Crc.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Crc.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Crc.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/DADES.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/DADES.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\DADES.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/HmaCMD.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/HmaCMD.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\HmaCMD.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumAdam.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumAdam.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumAdam.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumAfp.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumAfp.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumAfp.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumAsterisk.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumAsterisk.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumAsterisk.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumCiscoEnbl.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumCiscoEnbl.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumCiscoEnbl.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumCisco.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumCisco.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumCisco.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumCobaltStrike.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumCobaltStrike.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumCobaltStrike.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumCsv.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumCsv.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumCsv.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumFireBird.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumFireBird.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumFireBird.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumFTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumFTP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumFTP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTPForm.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumHTTPForm.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumHTTPForm.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxy.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumProxy.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumProxy.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
-
-build CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxyUrlEnum.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumProxyUrlEnum.c || cmake_object_order_depends_target_Mazmum
-  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumProxyUrlEnum.c.obj.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Mazmum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumHTTP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumHTTP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumICQ.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumICQ.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumICQ.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumIMAP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumIMAP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumIMAP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumIRC.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumIRC.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumIRC.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumIDP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumIDP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumIDP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMemCached.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMemCached.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMemCached.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumMod.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumMod.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumMod.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMongoDB.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMongoDB.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMongoDB.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMySQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMySQL.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMySQL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumMSSQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumMSSQL.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumMSSQL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumNCP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumNCP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumNCP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumNNTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumNNTP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumNNTP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumOracleListener.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumOracleListener.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumOracleListener.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumOracleSid.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumOracleSid.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumOracleSid.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumOracle.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumOracle.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumOracle.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumPCanyWhere.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumPCanyWhere.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumPCanyWhere.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumPcNfs.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumPcNfs.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumPcNfs.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumPOP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumPOP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumPOP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumPostgreSQL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumPostgreSQL.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumPostgreSQL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRadmin.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRadmin.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRadmin.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRDP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRDP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRDP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Data/MazmumRedis.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Data/MazmumRedis.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Data\MazmumRedis.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Data
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRexec.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRexec.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRexec.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRLogin.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRLogin.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRLogin.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRpCap.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRpCap.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRpCap.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRsh.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRsh.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRsh.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumRtSp.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumRtSp.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumRtSp.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumS7300.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumS7300.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumS7300.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumSapr.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumSapr.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumSapr.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumSip.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumSip.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumSip.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumSmb.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumSmb.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumSmb.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumSmbT.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumSmbT.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumSmbT.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTPE.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumSMTPE.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumSMTPE.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumSMTP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumSMTP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumSNMP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumSNMP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumSNMP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumSOCKSF.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumSOCKSF.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumSOCKSF.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumSSH.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumSSH.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumSSH.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumSSHKey.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumSSHKey.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumSSHKey.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumSVN.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumSVN.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumSVN.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumTeamSpeak.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumTeamSpeak.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumTeamSpeak.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumTelNet.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumTelNet.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumTelNet.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumTime.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumTime.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumTime.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumAuthD.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumAuthD.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumAuthD.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumVNC.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumVNC.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumVNC.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/Net/MazmumXMPP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumXMPP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumXMPP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/Mazmum.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/Mazmum.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\Mazmum.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/NTLM.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/NTLM.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\NTLM.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/PwInspector.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/PwInspector.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\PwInspector.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Engine/SASL.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/SASL.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Engine\SASL.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/Config/Config.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Config/Config.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\Config\Config.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Config
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
 
 build CMakeFiles/Mazmum.dir/MAZM/MazmumAFP.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/MAZM/MazmumAFP.c || cmake_object_order_depends_target_Mazmum
   DEP_FILE = CMakeFiles\Mazmum.dir\MAZM\MazmumAFP.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\MAZM
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
-  TARGET_PDB = Mazmum.pdb
+
+build CMakeFiles/Mazmum.dir/Engine/Net/MazmumTUEPE.c.obj: C_COMPILER__Mazmum_unscanned_Debug E$:/MyProjects/HackToolsTest/Mazmum/Engine/Net/MazmumTUEPE.c || cmake_object_order_depends_target_Mazmum
+  DEP_FILE = CMakeFiles\Mazmum.dir\Engine\Net\MazmumTUEPE.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mazmum.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mazmum.dir\Engine\Net
 
 
 # =============================================================================
@@ -601,16 +465,15 @@ build CMakeFiles/Mazmum.dir/MAZM/MazmumAFP.c.obj: C_COMPILER__Mazmum_unscanned_D
 #############################################
 # Link the executable Mazmum.exe
 
-build Mazmum.exe: C_EXECUTABLE_LINKER__Mazmum_Debug CMakeFiles/Mazmum.dir/main.c.obj CMakeFiles/Mazmum.dir/Engine/Bfg.c.obj CMakeFiles/Mazmum.dir/Engine/Crc.c.obj CMakeFiles/Mazmum.dir/Engine/DADES.c.obj CMakeFiles/Mazmum.dir/Engine/HmaCMD.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAdam.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumAfp.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAsterisk.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumCiscoEnbl.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumCisco.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumCobaltStrike.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumCsv.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumFireBird.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumFTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTPForm.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxy.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxyUrlEnum.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumICQ.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumIMAP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumIRC.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumIDP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMemCached.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumMod.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMongoDB.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMySQL.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMSSQL.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumNCP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumNNTP.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumOracleListener.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumOracleSid.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumOracle.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumPCanyWhere.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumPcNfs.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumPOP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumPostgreSQL.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRadmin.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRDP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumRedis.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRexec.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRLogin.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRpCap.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRsh.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRtSp.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumS7300.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSapr.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSip.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSmb.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSmbT.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTPE.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSNMP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSOCKSF.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSSH.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSSHKey.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSVN.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumTeamSpeak.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumTelNet.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumTime.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAuthD.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumVNC.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumXMPP.c.obj CMakeFiles/Mazmum.dir/MAZM/Mazmum.c.obj CMakeFiles/Mazmum.dir/Engine/NTLM.c.obj CMakeFiles/Mazmum.dir/Engine/PwInspector.c.obj CMakeFiles/Mazmum.dir/Engine/SASL.c.obj CMakeFiles/Mazmum.dir/Config/Config.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAFP.c.obj
+build Mazmum.exe: C_EXECUTABLE_LINKER__Mazmum_Debug CMakeFiles/Mazmum.dir/main.c.obj CMakeFiles/Mazmum.dir/Engine/Bfg.c.obj CMakeFiles/Mazmum.dir/Engine/Crc.c.obj CMakeFiles/Mazmum.dir/Engine/DADES.c.obj CMakeFiles/Mazmum.dir/Engine/HmaCMD.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAdam.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumAfp.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAsterisk.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumCiscoEnbl.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumCisco.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumCobaltStrike.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumCsv.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumFireBird.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumFTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTPForm.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumProxy.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumHTTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumICQ.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumIMAP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumIRC.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumIDP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMemCached.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumMod.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMongoDB.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMySQL.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumMSSQL.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumNCP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumNNTP.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumOracleListener.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumOracleSid.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumOracle.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumPCanyWhere.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumPcNfs.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumPOP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumPostgreSQL.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRadmin.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRDP.c.obj CMakeFiles/Mazmum.dir/Engine/Data/MazmumRedis.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRexec.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRLogin.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRpCap.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRsh.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumRtSp.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumS7300.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSapr.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSip.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSmb.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSmbT.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTPE.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSMTP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSNMP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSOCKSF.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumSSH.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSSHKey.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumSVN.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumTeamSpeak.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumTelNet.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumTime.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAuthD.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumVNC.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumXMPP.c.obj CMakeFiles/Mazmum.dir/MAZM/Mazmum.c.obj CMakeFiles/Mazmum.dir/Engine/NTLM.c.obj CMakeFiles/Mazmum.dir/Engine/PwInspector.c.obj CMakeFiles/Mazmum.dir/Engine/SASL.c.obj CMakeFiles/Mazmum.dir/Config/Config.c.obj CMakeFiles/Mazmum.dir/MAZM/MazmumAFP.c.obj CMakeFiles/Mazmum.dir/Engine/Net/MazmumTUEPE.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mazmum.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Mazmum.dir\
   TARGET_FILE = Mazmum.exe
   TARGET_IMPLIB = libMazmum.dll.a
-  TARGET_PDB = Mazmum.pdb
+  TARGET_PDB = Mazmum.exe.dbg
 
 
 #############################################
@@ -657,14 +520,14 @@ build all: phony Mazmum.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/MyProjects/HackToolsTest/Mazmum/CMakeLists.txt E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestRCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/MyProjects/HackToolsTest/Mazmum/CMakeLists.txt E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/MyProjects/HackToolsTest/Mazmum/CMakeLists.txt E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestRCCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/MyProjects/HackToolsTest/Mazmum/CMakeLists.txt E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake E$:/SoftGram$ FIles/Development/Software$ IDE/JetBrains$ IDE/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

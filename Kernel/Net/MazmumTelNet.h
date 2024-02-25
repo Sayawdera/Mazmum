@@ -1,0 +1,8 @@
+//
+// Created by Core VOID on 25.02.2024.
+//
+
+#ifndef MAZMUM_MAZMUMTELNET_H
+#define MAZMUM_MAZMUMTELNET_H
+
+#endif //MAZMUM_MAZMUMTELNET_H

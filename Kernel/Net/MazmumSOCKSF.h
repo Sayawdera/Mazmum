@@ -1,0 +1,8 @@
+//
+// Created by Core VOID on 25.02.2024.
+//
+
+#ifndef MAZMUM_MAZMUMSOCKSF_H
+#define MAZMUM_MAZMUMSOCKSF_H
+
+#endif //MAZMUM_MAZMUMSOCKSF_H

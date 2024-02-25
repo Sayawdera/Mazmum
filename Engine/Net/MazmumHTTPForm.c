@@ -4,9 +4,51 @@
 #include <windows.system.diagnostics.tracereporting.h>
 #include <ram.h>
 #include <cpu.h>
+#include <system.h>
 
 #include "../../Kernel/Net/MazmumHTTPForm.h"
 
+
+
+/*
+|===========================================================
+|    MAZMUM_COOKIE_NODE_PTR | MAZMUM_INITIALIZE()
+|===========================================================
+|
+|
+|===========================================================
+*/
+MAZMUM_COOKIE_NODE_PTR MAZMUM_INITIALIZE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR)
+{
+
+}
+
+/*
+|===========================================================
+|    MAZMUM_COOKIE_NODE_PTR | MAZMUM_HEADER_EXISTS()
+|===========================================================
+|
+|
+|===========================================================
+*/
+MAZMUM_COOKIE_NODE_PTR MAZMUM_HEADER_EXISTS(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header_Name, char Type)
+{
+
+}
+
+
+/*
+|===========================================================
+|    MAZMUM_HEADER_NODE | MAZMUM_HEADER_INITIALIZE()
+|===========================================================
+|
+|
+|===========================================================
+*/
+MAZMUM_HEADER_NODE MAZMUM_HEADER_INITIALIZE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR)
+{
+
+}
 
 
 /*
@@ -114,7 +156,7 @@ void MAZMUM_SERVICE_HTTP_SET_FORM(char *IP, int32_t PORT, unsigned char Options,
 */
 int32_t MAZMUM_APPEND_COOKIE(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *LastCookie)
 {
-
+   return 1;
 }
 
 /*
@@ -127,7 +169,7 @@ int32_t MAZMUM_APPEND_COOKIE(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *La
 */
 int32_t MAZMUM_ADD_OR_UPDATE_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
 {
-
+   return 1;
 }
 
 /*
@@ -140,7 +182,7 @@ int32_t MAZMUM_ADD_OR_UPDATE_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *Co
 */
 int32_t MAZMUM_PROCESS_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
 {
-
+    return 1;
 }
 
 /*
@@ -152,8 +194,8 @@ int32_t MAZMUM_PROCESS_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieEx
 |===========================================================
 */
 int32_t MAZMUM_ADD_HEADER(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *Value, char Type)
-{
-
+{   
+    return 1;
 }
 
 /*
@@ -165,8 +207,8 @@ int32_t MAZMUM_ADD_HEADER(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *
 |===========================================================
 */
 int32_t MAZMUM_PARSE_OPTIONS(char *MiscPTR, MAZMUM_COOKIE_NODE_PTR *PTR_Head)
-{
-
+{   
+    return 1;
 }
 
 /*
@@ -179,7 +221,7 @@ int32_t MAZMUM_PARSE_OPTIONS(char *MiscPTR, MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 */
 int32_t MAZMUM_STRPOS(char *Str, char *Target)
 {
-
+    return 1;
 }
 
 /*
@@ -192,7 +234,7 @@ int32_t MAZMUM_STRPOS(char *Str, char *Target)
 */
 int32_t MAZMUM_ANALYZE_SERVER_RESPONSE(int32_t S)
 {
-
+    return 1;
 }
 
 /*
@@ -205,7 +247,7 @@ int32_t MAZMUM_ANALYZE_SERVER_RESPONSE(int32_t S)
 */
 int32_t MAZMUM_START_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, MAZMUM_COOKIE_NODE Ptr_Cookie)
 {
-
+    return 1;
 }
 
 /*
