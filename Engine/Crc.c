@@ -7,7 +7,6 @@
 #else
 #include <stdint.h>
 #endif
-
 #include "../Kernel/CRC.h"
 
 

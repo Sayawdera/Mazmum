@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Mazmum::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Mazmum-Debug-064c2e2a429623601b30.json",
+					"jsonFile" : "target-Mazmum-Debug-6ed31f3d7bf5e86fef8d.json",
 					"name" : "Mazmum",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/corevoid/Desktop/MyProjects/Hacking/Mazmum/cmake-build-debug",
-		"source" : "/Users/corevoid/Desktop/MyProjects/Hacking/Mazmum"
+		"build" : "E:/MyProjects/HackToolsTest/Mazmum/cmake-build-debug",
+		"source" : "E:/MyProjects/HackToolsTest/Mazmum"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 5
 	}
 }

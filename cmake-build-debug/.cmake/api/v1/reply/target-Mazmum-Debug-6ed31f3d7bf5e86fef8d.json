@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Mazmum"
+			"path" : "Mazmum.exe"
+		},
+		{
+			"path" : "Mazmum.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu2x -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu2x -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -132,12 +135,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "Mazmum",
-	"nameOnDisk" : "Mazmum",
+	"nameOnDisk" : "Mazmum.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -264,7 +271,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/BFG.c",
+			"path" : "Engine/Bfg.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -275,7 +282,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Engine/CRC.c",
+			"path" : "Engine/Crc.c",
 			"sourceGroupIndex" : 0
 		},
 		{

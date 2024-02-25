@@ -1,7 +1,11 @@
-#include "../../Kernel/Net/MazmumHTTPForm.h
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.system.diagnostics.tracereporting.h>
+#include <ram.h>
+#include <cpu.h>
 
-
+#include "../../Kernel/Net/MazmumHTTPForm.h"
 
 
 
@@ -41,48 +45,63 @@ void MAZMUM_HDRREPV(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *HDRName, char *NewVa
 */
 void MAZMUM_CLEAN_UP(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 {
-    return;
-}
 
+}
 
 /*
 |===========================================================
-|    MAZMUM_STNDRUP()
+|    MAZMUM_RECONNECT()
 |===========================================================
 |
 |
 |===========================================================
 */
-char *MAZMUM_STNDRUP(const char *S, size_t N)
+void MAZMUM_RECONNECT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *HostName)
 {
-    return;
+
 }
 
 /*
 |===========================================================
-|    MAZMUM_STRINGIFY_COOKIES()
+|    MAZMUM_SERVICE_HTTP_FORM()
 |===========================================================
 |
 |
 |===========================================================
 */
-char *MAZMUM_STRINGIFY_COOKIES(MAZMUM_COOKIE_NODE_PTR PTR_COOKIE)
+void MAZMUM_SERVICE_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, MAZMUM_COOKIE_NODE Ptr_Cookie)
 {
-    return;
+
 }
 
 /*
 |===========================================================
-|    MAZMUM_STRINGFY_HEADERS()
+|    MAZMUM_SERVICE_HTTP_GET_FORM()
 |===========================================================
 |
 |
 |===========================================================
 */
-char *MAZMUM_STRINGFY_HEADERS(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
+void MAZMUM_SERVICE_HTTP_GET_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
-    return;
+
 }
+
+/*
+|===========================================================
+|    MAZMUM_SERVICE_HTTP_SET_FORM()
+|===========================================================
+|
+|
+|===========================================================
+*/
+void MAZMUM_SERVICE_HTTP_SET_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+{
+
+}
+
+
+
 
 
 /*
@@ -95,7 +114,7 @@ char *MAZMUM_STRINGFY_HEADERS(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 */
 int32_t MAZMUM_APPEND_COOKIE(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *LastCookie)
 {
-    return 0;
+
 }
 
 /*
@@ -108,7 +127,7 @@ int32_t MAZMUM_APPEND_COOKIE(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *La
 */
 int32_t MAZMUM_ADD_OR_UPDATE_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
 {
-    return 0;
+
 }
 
 /*
@@ -121,7 +140,7 @@ int32_t MAZMUM_ADD_OR_UPDATE_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *Co
 */
 int32_t MAZMUM_PROCESS_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
 {
-    return 0;
+
 }
 
 /*
@@ -134,7 +153,7 @@ int32_t MAZMUM_PROCESS_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieEx
 */
 int32_t MAZMUM_ADD_HEADER(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *Value, char Type)
 {
-    return 0;
+
 }
 
 /*
@@ -147,5 +166,141 @@ int32_t MAZMUM_ADD_HEADER(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *
 */
 int32_t MAZMUM_PARSE_OPTIONS(char *MiscPTR, MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 {
-    return 0;
+
+}
+
+/*
+|===========================================================
+|    MAZMUM_STRPOS()
+|===========================================================
+|
+|
+|===========================================================
+*/
+int32_t MAZMUM_STRPOS(char *Str, char *Target)
+{
+
+}
+
+/*
+|===========================================================
+|    MAZMUM_ANALYZE_SERVER_RESPONSE()
+|===========================================================
+|
+|
+|===========================================================
+*/
+int32_t MAZMUM_ANALYZE_SERVER_RESPONSE(int32_t S)
+{
+
+}
+
+/*
+|===========================================================
+|    MAZMUM_START_HTTP_FORM()
+|===========================================================
+|
+|
+|===========================================================
+*/
+int32_t MAZMUM_START_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, MAZMUM_COOKIE_NODE Ptr_Cookie)
+{
+
+}
+
+/*
+|===========================================================
+|    MAZMUM_SERVICE_HTTP_FORM_INIT()
+|===========================================================
+|
+|
+|===========================================================
+*/
+int32_t MAZMUM_SERVICE_HTTP_FORM_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+{
+    return 1;
+}
+
+
+
+
+/*
+|===========================================================
+|    *MAZMUM_STNDRUP()
+|===========================================================
+|
+|
+|===========================================================
+*/
+char *MAZMUM_STNDRUP(const char *S, size_t N)
+{
+
+}
+
+/*
+|===========================================================
+|    *MAZMUM_STRINGIFY_COOKIES()
+|===========================================================
+|
+|
+|===========================================================
+*/
+char *MAZMUM_STRINGIFY_COOKIES(MAZMUM_COOKIE_NODE_PTR PTR_COOKIE)
+{
+
+}
+
+/*
+|===========================================================
+|    *MAZMUM_STRINGFY_HEADERS()
+|===========================================================
+|
+|
+|===========================================================
+*/
+char *MAZMUM_STRINGFY_HEADERS(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
+{
+
+}
+
+/*
+|===========================================================
+|    *MAZMUM_PREPARE_HTTP_REQUEST()
+|===========================================================
+|
+|
+|===========================================================
+*/
+char *MAZMUM_PREPARE_HTTP_REQUEST(char *Type, char *Path, char *Params, char *Headers)
+{
+
+}
+
+/*
+|===========================================================
+|    *MAZMUM_HTML_ENCODE()
+|===========================================================
+|
+|
+|===========================================================
+*/
+char *MAZMUM_HTML_ENCODE(char *String)
+{
+    
+}
+
+
+
+
+/*
+|===========================================================
+|    MAZMUM_USAGE_HTTP_FORM()
+|===========================================================
+|
+|
+|===========================================================
+*/
+void MAZMUM_USAGE_HTTP_FORM(const char *Service)
+{
+
 }

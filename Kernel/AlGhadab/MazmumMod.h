@@ -1,7 +1,10 @@
 #ifndef B8B6C888_EDEF_41C9_ABDD_56E45F8ADA27
 #define B8B6C888_EDEF_41C9_ABDD_56E45F8ADA27
 
+#include <stdio.h>
+#include <stdlib.h>
 #include "Mazmum.h"
+
 
 #ifdef __MAZMUM
 #include <sys/int_types.h>
