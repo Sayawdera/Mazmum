@@ -1,10 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.system.diagnostics.tracereporting.h>
-#include <ram.h>
-#include <cpu.h>
-#include <system.h>
+
 
 #include "../../Kernel/Net/MazmumHTTPForm.h"
 
@@ -45,7 +42,7 @@ MAZMUM_COOKIE_NODE_PTR MAZMUM_HEADER_EXISTS(MAZMUM_COOKIE_NODE_PTR *PTR_Head, ch
 |
 |===========================================================
 */
-MAZMUM_HEADER_NODE MAZMUM_HEADER_INITIALIZE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR)
+struct MAZMUM_HEADER_NODE MAZMUM_HEADER_INITIALIZE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR)
 {
 
 }
@@ -111,7 +108,7 @@ void MAZMUM_RECONNECT(char *IP, int32_t PORT, unsigned char Options, int32_t S, 
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, MAZMUM_COOKIE_NODE Ptr_Cookie)
+void MAZMUM_SERVICE_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, struct MAZMUM_COOKIE_NODE Ptr_Cookie)
 {
 
 }
@@ -245,7 +242,7 @@ int32_t MAZMUM_ANALYZE_SERVER_RESPONSE(int32_t S)
 |
 |===========================================================
 */
-int32_t MAZMUM_START_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, MAZMUM_COOKIE_NODE Ptr_Cookie)
+int32_t MAZMUM_START_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, struct MAZMUM_COOKIE_NODE Ptr_Cookie)
 {
     return 1;
 }

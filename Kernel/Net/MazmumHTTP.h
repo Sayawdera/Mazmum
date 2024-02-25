@@ -4,6 +4,7 @@
 
 #include "../AlGhadab/MazmumMod.h"
 #include "MazmumHTTPForm.h"
+#include "../SASL.h"
 
 #define MAZMUM_HEADER_TYPE_USER_HEADER 'h'
 #define MAZMUM_HEADER_TYPE_USER_HEADER_REPL 'H'
@@ -26,7 +27,7 @@ extern int32_t MAZMUM_ADD_HEADERS(mazmum_ptr_node_header *ptr_head, char *header
 
 int Mazmum_End_Condition_Type = -1;
 int32_t Mazmum_web_port;
-int32_t Mazmum_HTTP_Auth_Mechanism = AUTH_UNASSIGNED;
+int32_t Mazmum_HTTP_Auth_Mechanism = MAZMUM_AUTH_UNASSIGNED;
 
 extern char *stringify_headers(mazmum_ptr_node_header *ptr_head);
 

@@ -102,4 +102,9 @@ add_executable(Mazmum main.c
         Kernel/Net/MazmumICQ.h
         Kernel/Net/MazmumTUEPE.h
         Engine/Net/MazmumTUEPE.c
-        Kernel/AlGhadab/MazmumIMAP.h)
+        Kernel/AlGhadab/MazmumIMAP.h
+        Kernel/AlGhadab/MazmumIDP.h
+        Kernel/Data/MazmumMemCached.h
+        Kernel/Data/MazmumMongoDB.h
+        Kernel/Data/MazmumMSSQL.h
+        Kernel/Data/MazmumMySQL.h)

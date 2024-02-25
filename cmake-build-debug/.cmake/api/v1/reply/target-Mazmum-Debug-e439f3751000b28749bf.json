@@ -260,7 +260,12 @@
 				95,
 				96,
 				97,
-				99
+				99,
+				100,
+				101,
+				102,
+				103,
+				104
 			]
 		},
 		{
@@ -839,6 +844,31 @@
 		{
 			"backtrace" : 1,
 			"path" : "Kernel/AlGhadab/MazmumIMAP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumIDP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Data/MazmumMemCached.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Data/MazmumMongoDB.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Data/MazmumMSSQL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/Data/MazmumMySQL.h",
 			"sourceGroupIndex" : 1
 		}
 	],
