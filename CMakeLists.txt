@@ -107,4 +107,9 @@ add_executable(Mazmum main.c
         Kernel/Data/MazmumMemCached.h
         Kernel/Data/MazmumMongoDB.h
         Kernel/Data/MazmumMSSQL.h
-        Kernel/Data/MazmumMySQL.h)
+        Kernel/Data/MazmumMySQL.h
+        Kernel/AlGhadab/MazmumNCP.h
+        Kernel/AlGhadab/MazmumOracleListener.h
+        Kernel/AlGhadab/MazmumOracleSid.h
+        Kernel/AlGhadab/MazmumOracle.h
+        Kernel/AlGhadab/MazmumPCanyWhere.h)

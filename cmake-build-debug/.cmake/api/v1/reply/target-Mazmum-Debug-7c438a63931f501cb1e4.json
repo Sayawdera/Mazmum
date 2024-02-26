@@ -265,7 +265,12 @@
 				101,
 				102,
 				103,
-				104
+				104,
+				105,
+				106,
+				107,
+				108,
+				109
 			]
 		},
 		{
@@ -869,6 +874,31 @@
 		{
 			"backtrace" : 1,
 			"path" : "Kernel/Data/MazmumMySQL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumNCP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumOracleListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumOracleSid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumOracle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Kernel/AlGhadab/MazmumPCanyWhere.h",
 			"sourceGroupIndex" : 1
 		}
 	],
