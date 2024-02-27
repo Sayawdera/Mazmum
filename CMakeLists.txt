@@ -112,4 +112,12 @@ add_executable(Mazmum main.c
         Kernel/AlGhadab/MazmumOracleListener.h
         Kernel/AlGhadab/MazmumOracleSid.h
         Kernel/AlGhadab/MazmumOracle.h
-        Kernel/AlGhadab/MazmumPCanyWhere.h)
+        Kernel/AlGhadab/MazmumPCanyWhere.h
+        Kernel/AlGhadab/MazmumPcNfs.h
+        Kernel/AlGhadab/MazmumPOP.h
+        Kernel/Data/MazmumPostgreSQL.h
+        Kernel/AlGhadab/MazmumRadmin.h
+        Kernel/AlGhadab/MazmumRDP.h
+        Kernel/Data/MazmumRedis.h
+        Kernel/AlGhadab/MazmumRexec.h
+        Kernel/AlGhadab/MazmumRLogin.h)
