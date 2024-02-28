@@ -94,7 +94,6 @@ add_executable(Mazmum main.c
         Kernel/Net/MazmumXMPP.h
         Kernel/Net/MazmumSSH.h
         Kernel/Net/MazmumSOCKSF.h
-        Kernel/Net/MazmumSMTP.h
         Kernel/Net/MazmumSNMP.h
         Kernel/Net/MazmumProxy.h
         Kernel/Net/MazmumNNTP.h
@@ -120,4 +119,13 @@ add_executable(Mazmum main.c
         Kernel/AlGhadab/MazmumRDP.h
         Kernel/Data/MazmumRedis.h
         Kernel/AlGhadab/MazmumRexec.h
-        Kernel/AlGhadab/MazmumRLogin.h)
+        Kernel/AlGhadab/MazmumRLogin.h
+        Kernel/AlGhadab/MazmumRpCap.h
+        Kernel/AlGhadab/MazmumRsh.h
+        Kernel/AlGhadab/MazmumRtSp.h
+        Kernel/AlGhadab/MazmumS7300.h
+        Kernel/AlGhadab/MazmumSapr.h
+        Kernel/AlGhadab/MazmumSip.h
+        Kernel/AlGhadab/MazmumSmb.h
+        Kernel/AlGhadab/MazmumSmbT.h
+        Kernel/Net/MazmumSMTP.h)
