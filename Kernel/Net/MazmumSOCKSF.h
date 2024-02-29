@@ -1,8 +1,17 @@
-//
-// Created by Core VOID on 25.02.2024.
-//
-
 #ifndef MAZMUM_MAZMUMSOCKSF_H
 #define MAZMUM_MAZMUMSOCKSF_H
 
-#endif //MAZMUM_MAZMUMSOCKSF_H
+
+
+#include <stdint.h>
+#include <stdio.h>
+
+
+#include "../AlGhadab/MazmumMod.h"
+
+extern char *MAZMUM_EXIT;
+char *Buf;
+
+
+
+#endif MAZMUM_MAZMUMSOCKSF_H
