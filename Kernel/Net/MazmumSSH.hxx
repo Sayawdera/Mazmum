@@ -1,0 +1,8 @@
+//
+// Created by Core VOID on 25.02.2024.
+//
+
+#ifndef MAZMUM_MAZMUMSSH_HXX
+#define MAZMUM_MAZMUMSSH_HXX
+
+#endif //MAZMUM_MAZMUMSSH_HXX
