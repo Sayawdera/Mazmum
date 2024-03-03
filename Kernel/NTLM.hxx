@@ -10,6 +10,8 @@
 #include <stdint.h>
 #endif
 
+#include <stdio.h>
+
 typedef unsigned short uint16;
 typedef uint32_t uint32;
 typedef unsigned char uint8;

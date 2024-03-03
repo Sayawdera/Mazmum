@@ -37,8 +37,8 @@ typedef enum
 } MAZMUM_SASL_SASLPREP_FLAGS;
 
 
-int32_t Mazmum_Print_HEX(unsigned char *Buf, int32_t Len);
-int32_t Mazmum_Sasl_SaslPrep(const char *In, MAZMUM_SASL_SASLPREP_FLAGS Flags, char **Out);
+int Mazmum_Print_HEX(unsigned char *Buf, int Len);
+int Mazmum_Sasl_SaslPrep(const char *In, MAZMUM_SASL_SASLPREP_FLAGS Flags, char **Out);
 
 char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password);
 
@@ -52,7 +52,7 @@ char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password);
 char *Mazmum_Sasl_Cram_Md5(char *Result, char *Password, char *Challenge);
 char *Mazmum_Sasl_Cram_Sha1(char *Result, char *Password, char *Challenge);
 char *Mazmum_Sasl_Cram_Sha256(char *Result, char *Password, char *Challenge);
-char *Mazmum_Sasl_Digest_Md5(char *Result, char *Login, char *Password, char *Buffer, char *Miscptr, char *Type, char *WebTarget, int32_t WebPort, char *Header);
+char *Mazmum_Sasl_Digest_Md5(char *Result, char *Login, char *Password, char *Buffer, char *Miscptr, char *Type, char *WebTarget, int WebPort, char *Header);
 char *Mazmum_Sasl_Scram_Sha1(char *Result, char *Password, char *ClientFirstMessageBare, char *ServerFirstMessage);
 
 

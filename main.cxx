@@ -1,23 +1,12 @@
-#include <stdio.h>
+#include <iostream>
 
-
-void Mazm(void);
+using namespace std;
 
 int main()
 {
-    printf("Mazmum\n");
-    Mazm();
+    cout << "Hello World!" << endl;
     return 0;
 }
 
 
-void Mazm()
-{
-  printf("Dirge State Ment ");
-}
 
-
-int asd()
-{
-
-}

@@ -2,16 +2,13 @@
 #define MAZMUM_MAZMUMSOCKSF_HXX
 
 
-
-#include <stdint.h>
-#include <stdio.h>
-
-
 #include "../AlGhadab/MazmumMod.h"
 
 extern char *MAZMUM_EXIT;
-char *Buf;
+unsigned char *Buf;
 
+int fail_cnt;
 
+int32_t MazmumStartSocksF(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char*MiscPTR);
 
 #endif MAZMUM_MAZMUMSOCKSF_HXX
