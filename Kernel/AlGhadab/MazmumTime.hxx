@@ -1,12 +1,26 @@
-#include "Mazmum.hxx"
+#ifndef MAZMUM_MAZMUMTIME_ICC
+#define MAZMUM_MAZMUMTIME_ICC
 
-#ifndef __WINT__
 
-int32_t MAZMUM_SLEEPN(time_t MAZM_Seconds)
-{
-    struct Mazmum_Time_Spec MTS;
-    MTS.MTS_Seconds = MAZM_Seconds;
-    MTS.MTS_Nano_Second = 0;
-    return MAZMUM_NANO_SLEEP(&MTS, NULL);
 
-}
+#include <atomic>
+#include <iostream>
+
+#include <zlib.h>
+
+#include "../CRC.hxx"
+#include "../AlGhadab/MazmumMod.hxx"
+
+extern MAZMUM_OPTION __Mazmum_Option;
+extern char *MAZMUM_EXIT;
+extern char *Buf;
+
+std::atomic_int32_t MazmumSleep(time_t Seconds);
+std::atomic_int32_t MazmumUSleepN(uint64_t MiliSeconds);
+std::atomic_int32_t MazmumSleepN(uint32_t Seconds);
+std::atomic_int32_t MazmumUSleepN(uint32_t MiliSeconds);
+
+
+
+
+#endif MAZMUM_MAZMUMTIME_ICC

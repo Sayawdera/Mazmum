@@ -77,7 +77,6 @@ void MAZMUM_HMAC_MD_UPDATE()
 void MAZMUM_HMAC_MD_FINAL(unsigned char &Digest, __mazmum_hmacmd_context *Ctx)
 {
     MAZMUM_HMACMD_CONTEXT.MAZMUM_MD_CTX CTX_O;
-    
 }
 
 
