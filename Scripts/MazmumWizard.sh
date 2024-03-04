@@ -66,6 +66,8 @@ test "$yn" = "n" -o "$yn" = "N" &&
 {
     echo Exiting.;
     exit 0;
-}
-echo
-hydra $users $passs -u $pws $ports $opts $targets $service
+MAZMUM $users $passs -u $pws $ports $opts $targets $service
+
+
+
+
