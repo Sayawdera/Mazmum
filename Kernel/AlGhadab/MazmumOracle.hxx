@@ -9,7 +9,7 @@
 #include <stdbool.h>
 #include <sys/types.h>
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
 
 
 extern MAZMUM_OPTION __Mazmum_Option;

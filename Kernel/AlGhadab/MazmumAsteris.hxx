@@ -2,7 +2,7 @@
 #define MAZMUM_MAZMUMASTERIS_HXX
 
 #include <stdio.h>
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
 
 void MAZMUM_SERVICE_ASTERISK(char *IP, int32_t Sp, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t PORT, char *HostName);
 
