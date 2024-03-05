@@ -1,11 +1,17 @@
 #ifndef MAZMUM_BFG_HXX
 #define MAZMUM_BFG_HXX
 
+#include <iostream>
+#include <atomic>
 
-#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
 
 #define MAZMUM_BFG_BUFLEN 1024
-#define MAZMUM_BFG_CHARSMAX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \
+#define MAZMUM_BFG_CHARSMAX 256                                                                                                                                                                                                                                                                                                                                                                                    \
 
 
 #define MAZMUM_BFG_LOWER 1
@@ -14,16 +20,16 @@
 
 typedef struct
 {
-    unsigned char mazmum_from;
-    unsigned char mazmum_to;
-    unsigned char mazmum_current;
-    unsigned char mazmum_state[MAZMUM_BFG_CHARSMAX];
-    unsigned char mazmum_pos;
-    unsigned char mazmum_crs_len;
+    unsigned char MazmumFrom;
+    unsigned char MazmumTo;
+    unsigned char MazmumCurrent;
+    unsigned char MazmumState[MAZMUM_BFG_CHARSMAX];
+    unsigned char MazmumPos;
+    unsigned char MazmumCrsLen;
     char *arg;
     char *crs;
     char *ptr;
-    uint32_t mazmum_disable_symbols;
+    uint32_t MazmumDisableSymbols;
 
 } MAZMUM_BFG_OPTION;
 

@@ -2,18 +2,19 @@
 #define MAZMUM_MAZMUMSNMP_HXX
 
 
+#include <iostream>
+#include <atomic>
 
-#include <stdint.h>
 #include <stdio.h>
-
+#include <stdio.h>
+#include <inttypes.h>
 #include <openssl/aes.h>
 #include <openssl/des.h>
 #include <openssl/hmac.h>
 #include <openssl/md5.h>
 #include <openssl/sha.h>
 
-
-#include "../AlGhadab/MazmumMod.h"
+#include "../AlGhadab/MazmumMod.hxx"
 #include "../SASL.hxx"
 
 extern char *MAZMUM_EXIT;

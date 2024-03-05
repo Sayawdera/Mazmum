@@ -2,18 +2,22 @@
 #define MAZMUM_MAZMUMPOSTGRESQL_HXX
 
 
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
+#include <libpq-fe.h>
 
-#include "../AlGhadab//MazmumMod.h"
-#include "libpq-fe.h"
+#include "../AlGhadab/MazmumMod.hxx"
+
+
 
 #define DEFAULT_DB "template"
 
 extern char *MAZMUM_EXIT;
-extern MAZMUM_OPTION _Mazmum_Option;
+extern MAZMUM_OPTION_T _Mazmum_Option;
 char *Buf;
 
 

@@ -4,23 +4,26 @@
 
 
 
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
 #include <string.h>
-
 #include <errno.h>
 #include <libsmbclient.h>
 #include <stdbool.h>
 
-#include "MazmumMod.h"
+
+#include "MazmumMod.hxx"
 #include "../SASL.hxx"
 
 
 
 extern char *MAZMUM_EXIT;
 char *Buf;
-extern MAZMUM_OPTION _Mazmum_Option;
+extern MAZMUM_OPTION_T _Mazmum_Option;
 
 typedef struct MAZMUM_CRES
 {

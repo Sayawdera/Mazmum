@@ -1,15 +1,18 @@
 #ifndef MAZMUM_MAZMUMORACLESID_HXX
 #define MAZMUM_MAZMUMORACLESID_HXX
 
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <openssl/des.h>
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
+#include "../SASL.hxx"
 
 
-extern MAZMUM_OPTION __Mazmum_Option;
+extern MAZMUM_OPTION_T __Mazmum_Option;
 char *MAZMUM_EXIT;
 char *Buf;
 unsigned char *Hash;

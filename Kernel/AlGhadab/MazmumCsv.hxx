@@ -1,9 +1,15 @@
 #ifndef MAZMUM_MAZMUMCSV_HXX
 #define MAZMUM_MAZMUMCSV_HXX
 
-#include "MazmumMod.h"
-#include <stdint.h>
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "MazmumMod.hxx"
 
 void MAZMUM_SERVICE_CSV(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName);
 

@@ -1,10 +1,15 @@
 #ifndef MAZMUM_MAZMUMIRC_HXX
 #define MAZMUM_MAZMUMIRC_HXX
 
-#include <inttypes.h>
-#include <stdio.h>
+#include <iostream>
+#include <atomic>
 
-#include "../AlGhadab/MazmumMod.h"
+#include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 extern char *MAZMUM_EXIT;
 char Buffer[300] = "";

@@ -4,13 +4,18 @@
 
 #include <iostream>
 #include <atomic>
+
+#include <stdio.h>
+#include <stdio.h>
 #include <inttypes.h>
 
-#include "../SASL.hxx"
+
 #include "../AlGhadab/MazmumMod.hxx"
+#include "../SASL.hxx"
 
 
-extern MAZMUM_OPTION __Mazmum_Option;
+
+extern MAZMUM_OPTION_T __Mazmum_Option;
 extern char *MAZMUM_EXIT;
 extern char *Buf;
 

@@ -1,8 +1,14 @@
 #ifndef B8B6C888_EDEF_41C9_ABDD_56E45F8ADA27
 #define B8B6C888_EDEF_41C9_ABDD_56E45F8ADA27
 
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
 #include "Mazmum.hxx"
 
 

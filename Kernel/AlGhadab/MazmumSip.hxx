@@ -2,13 +2,16 @@
 #define MAZMUM_MAZMUMSIP_HXX
 
 
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
 #include <string.h>
 #include <ctype.h>
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
 #include "../SASL.hxx"
 
 

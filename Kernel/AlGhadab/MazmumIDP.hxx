@@ -1,8 +1,15 @@
 #ifndef MAZMUM_MAZMUMIDP_HXX
 #define MAZMUM_MAZMUMIDP_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
 #include <stdio.h>
 #include <inttypes.h>
+
+
+#include "MazmumMod.hxx"
 
 
 void MAZMUM_IDP_SERVIE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName, char Version, int32_t Mazmum_Auth_Method);

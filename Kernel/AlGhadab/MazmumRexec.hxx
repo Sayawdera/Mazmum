@@ -4,11 +4,15 @@
 
 
 
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
 
-#include "MazmumMod.h"
+
+#include "MazmumMod.hxx"
 
 
 extern char *MAZMUM_EXIT;

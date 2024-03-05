@@ -2,11 +2,15 @@
 #define MAZMUM_MAZMUMMYSQL_HXX
 
 
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
-#include <math.h>
+#include <stdio.h>
+#include <inttypes.h>
 
-#include "../AlGhadab/MazmumMod.h"
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 #define DEFAULT_DB "mysql"
 

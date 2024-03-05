@@ -1,8 +1,15 @@
 #ifndef MAZMUM_MAZMUMICQ_HXX
 #define MAZMUM_MAZMUMICQ_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
 #include <stdio.h>
 #include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 extern char *MAZMUM_EXIT;
 extern int32_t Mazmum_Child_Head_No;

@@ -1,8 +1,15 @@
 #ifndef MAZMUM_MAZMUMHTTP_HXX
 #define MAZMUM_MAZMUMHTTP_HXX
 
+#include <iostream>
+#include <atomic>
 
-#include "../AlGhadab/MazmumMod.h"
+#include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 #include "MazmumHTTPForm.hxx"
 #include "../SASL.hxx"
 

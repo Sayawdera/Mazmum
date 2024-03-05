@@ -5,13 +5,19 @@
 
 #include "../AlGhadab/MazmumMod.hxx"
 
+#include <iostream>
 #include <atomic>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
 #include <libssh/libssh.h> // libssh.org for C++
 
 
 SSHSession Session = NULL;
 
-extern MAZMUM_OPTION __Mazmum_Option;
+extern MAZMUM_OPTION_T __Mazmum_Option;
 char *MAZMUM_EXIT;
 char *Buf;
 std::atomic_int32_t NewSession = 1;

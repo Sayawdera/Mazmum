@@ -1,6 +1,15 @@
 #ifndef MAZMUM_MAZMUMDATAINIT_ICC
 #define MAZMUM_MAZMUMDATAINIT_ICC
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 typedef uint32_t Oid;
 

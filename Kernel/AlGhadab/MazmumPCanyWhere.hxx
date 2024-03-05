@@ -1,13 +1,16 @@
 #ifndef MAZMUM_MAZMUMPCANYWHERE_HXX
 #define MAZMUM_MAZMUMPCANYWHERE_HXX
 
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
 
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
+#include "../SASL.hxx"
 
 
 

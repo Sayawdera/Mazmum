@@ -1,14 +1,22 @@
 #ifndef MAZMUM_MAZMUMIMAP_HXX
 #define MAZMUM_MAZMUMIMAP_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
 #include <stdio.h>
 #include <inttypes.h>
+
+
+#include "MazmumMod.hxx"
+#include "../SASL.hxx"
 
 
 extern char *MAZMUM_EXIT;
 char *Buf;
 int32_t Counter;
-int32_t Mazmum_Imap_Auth_Mechanism = AUTH_CLEAR;
+int32_t Mazmum_Imap_Auth_Mechanism = MAZMUM_AUTH_CLEAR;
 
 void MAZMUM_IMAP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
 void MAZMUM_USAGE_IMAP(const char *Service);

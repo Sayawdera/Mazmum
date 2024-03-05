@@ -2,10 +2,16 @@
 #define MAZMUM_MAZMUMMONGODB_HXX
 
 
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
 #include <mongoc.h>
 
-#include "../AlGhadab/MazmumMod.h"
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 #ifndef LIBMONGODB
 void MAZMUM_DUMMY_MONGODB();

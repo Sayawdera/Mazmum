@@ -9,13 +9,16 @@ unsigned char *Buf;
 
 int fail_cnt;
 
+#include <iostream>
 #include <atomic>
 #include <cstdint>
+
 #include <stdint.h>
 #include <stdio.h>
+#include <inttypes.h>
 
 
-#include "../AlGhadab/MazmumMod.h"
+#include "../AlGhadab/MazmumMod.hxx"
 
 
 extern char *MAZMUM_EXIT;

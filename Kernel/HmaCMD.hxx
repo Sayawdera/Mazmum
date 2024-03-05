@@ -1,6 +1,15 @@
 #ifndef MAZMUM_HMACMD_HXX
 #define MAZMUM_HMACMD_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
+
 #ifdef __MAZMUM
 #include <sys/int_types.h>
 #elif defined(__FreeBSD__) || defined(__IBMCPP__) || defined(_AIX__)

@@ -1,8 +1,14 @@
-#include <stdio.h>
-#include <string.h>
+#ifndef MAZMUM_SASL_ICC
+#define MAZMUM_SASL_ICC
 
-#include "AlGhadab/MazmumMod.h"
-#include "NTLM.hxx"
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
 
 
 #define MAZMUM_AUTH_ERROR -1
@@ -31,7 +37,7 @@
 #endif
 #endif
 
-typedef enum 
+typedef enum
 {
     MAZMUM_SASL_ALLOW_UNASSIGNED = 1,
 } MAZMUM_SASL_SASLPREP_FLAGS;
@@ -57,3 +63,7 @@ char *Mazmum_Sasl_Scram_Sha1(char *Result, char *Password, char *ClientFirstMess
 
 
 #endif
+
+
+
+#endif MAZMUM_SASL_ICC

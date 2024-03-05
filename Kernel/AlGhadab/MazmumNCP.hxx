@@ -2,13 +2,16 @@
 #define MAZMUM_MAZMUMNCP_HXX
 
 
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
 #include <string.h>
-#include <ncp/nwcalls.h>
 
-#include "MazmumMod.h"
+
+#include "MazmumMod.hxx"
 
 #ifndef LIBNCP
 void MAZMUM_DUMMY_NCP(void);

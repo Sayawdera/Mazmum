@@ -1,18 +1,19 @@
 #ifndef MAZMUM_MAZMUMORACLELISTENER_HXX
 #define MAZMUM_MAZMUMORACLELISTENER_HXX
 
-
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
 #include "../SASL.hxx"
 
 #define MAZMUM_HASH_SIZE 17
 
-extern MAZMUM_OPTION __Mazmum_Option;
+extern MAZMUM_OPTION_T __Mazmum_Option;
 char *MAZMUM_EXIT;
 char *Buf;
 unsigned char *Hash;

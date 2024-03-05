@@ -5,6 +5,15 @@
 #define MAX_CONTENT_LENGTH 20
 #define MAX_PROXY_LENGTH 2048 / sizeof(CookieURL) * 2
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 #include "MazmumHTTP.hxx"
 #include "../SASL.hxx"
 

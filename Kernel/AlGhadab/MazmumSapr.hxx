@@ -2,21 +2,27 @@
 #define MAZMUM_MAZMUMSAPR_HXX
 
 
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
+#include <string.h>
 #include <string.h>
 #include <ctype.h>
 #include <saprfc.h>
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
 #include "../SASL.hxx"
+
+
+
 
 
 extern char *MAZMUM_EXIT;
 char *Buf;
-extern MAZMUM_OPTION _Mazmum_Option;
+extern MAZMUM_OPTION_T _Mazmum_Option;
 
 MAZMUM_RFC_ERROR_INFO_EXIT MREIE;
 

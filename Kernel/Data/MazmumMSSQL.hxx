@@ -2,9 +2,15 @@
 #define MAZMUM_MAZMUMMSSQL_HXX
 
 
-#include <stdio.h>
+#include <iostream>
+#include <atomic>
 
-#include "../AlGhadab/MazmumMod.h"
+#include <stdio.h>
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 
 #define MSLEN 30

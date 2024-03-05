@@ -1,14 +1,20 @@
 #ifndef MAZMUM_MAZMUMMEMCACHED_HXX
 #define MAZMUM_MAZMUMMEMCACHED_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
 #include <stdio.h>
 #include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 #ifdef LIBMCACHED
 #include <libmemcached/memcached.h>
 #endif
 
-#include "../AlGhadab/MazmumMod.h"
 
 #ifndef LIBMCACHED
 void MAZMUM_DUMMY_MEMCACHED();

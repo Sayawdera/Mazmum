@@ -1,6 +1,14 @@
 #ifndef MAZMUM_NTLM_HXX
 #define MAZMUM_NTLM_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
 
 #ifdef __MAZMUM
 #include <sys/int_types.h>

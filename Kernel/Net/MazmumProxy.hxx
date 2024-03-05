@@ -1,8 +1,15 @@
 #ifndef MAZMUM_MAZMUMPROXY_HXX
 #define MAZMUM_MAZMUMPROXY_HXX
 
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
 #include <stdio.h>
 #include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 
 void MAZMUM_SERVICE_HTTP_PROXY(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);

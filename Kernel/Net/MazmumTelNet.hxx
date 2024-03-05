@@ -7,11 +7,14 @@
 #include <iostream>
 
 #include <zlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
 
 #include "../CRC.hxx"
 #include "../AlGhadab/MazmumMod.hxx"
 
-extern MAZMUM_OPTION __Mazmum_Option;
+extern MAZMUM_OPTION_T __Mazmum_Option;
 extern char *MAZMUM_EXIT;
 extern char *Buf;
 

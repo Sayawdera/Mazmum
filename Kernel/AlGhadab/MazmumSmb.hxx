@@ -2,14 +2,16 @@
 #define MAZMUM_MAZMUMSMB_HXX
 
 
+#include <iostream>
+#include <atomic>
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <inttypes.h>
 #include <openssl/des.h>
 #include <openssl/md4.h>
 
-#include "MazmumMod.h"
+#include "MazmumMod.hxx"
 #include "../SASL.hxx"
 #include "../HmaCMD.hxx"
 
@@ -44,7 +46,7 @@ static unsigned char machine_name[16];
 int32_t hashFlag, accntFlag, protoFlag;
 
 int32_t smb_auth_mechanism = MAZMUM_AUTH_NTLM;
-int32_t security_mode = MAZMUM_ENCRYPTED;
+int32_t security_mode = MAZM_ENCRYPTED;
 
 
 static void MAZMUM_MAKE_KEY(unsigned char *Key, unsigned char *Des_Key);

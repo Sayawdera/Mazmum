@@ -1,9 +1,15 @@
 #ifndef MAZMUM_MAZMUMAFP_HXX
 #define MAZMUM_MAZMUMAFP_HXX
 
-#include <stdint.h>
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include "../AlGhadab/MazmumMod.h"
+#include <stdio.h>
+#include <inttypes.h>
+
+
+#include "../AlGhadab/MazmumMod.hxx"
 
 void MAZMUM_DUMMY_AFP();
 void MAZMUM_STDOUT_FCT(void *PrivPTR, enum LogLevel, int32_t LogType, const char *Message);
