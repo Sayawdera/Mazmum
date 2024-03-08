@@ -31,6 +31,6 @@ void MazmumServiceSocksF(char *IP, int32_t PORT, unsigned char Options, int32_t 
 std::atomic_int32_t MazmumStartSocksF(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 std::atomic_int32_t MazmumServiceSocksF_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
-int32_t MazmumStartSocksF(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char*MiscPTR);
+std::atomic_int32_t MazmumStartSocksF(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char*MiscPTR);
 
 #endif MAZMUM_MAZMUMSOCKSF_HXX

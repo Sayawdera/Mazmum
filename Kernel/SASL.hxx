@@ -43,8 +43,8 @@ typedef enum
 } MAZMUM_SASL_SASLPREP_FLAGS;
 
 
-int Mazmum_Print_HEX(unsigned char *Buf, int Len);
-int Mazmum_Sasl_SaslPrep(const char *In, MAZMUM_SASL_SASLPREP_FLAGS Flags, char **Out);
+std::atomic_int32_t Mazmum_Print_HEX(unsigned char *Buf, int Len);
+std::atomic_int32_t Mazmum_Sasl_SaslPrep(const char *In, MAZMUM_SASL_SASLPREP_FLAGS Flags, char **Out);
 
 char *Mazmum_Sasl_Plain(char *Result, char *Login, char *Password);
 
@@ -66,4 +66,4 @@ char *Mazmum_Sasl_Scram_Sha1(char *Result, char *Password, char *ClientFirstMess
 
 
 
-#endif MAZMUM_SASL_ICC
+#endif MAZMUM_SASL_ICCнн

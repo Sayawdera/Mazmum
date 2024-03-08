@@ -1,4 +1,9 @@
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
 
 #include "../../Kernel/AlGhadab/MazmumMod.h"
 #include "../../Kernel/Data/MazmumMSSQL.hxx"

@@ -37,14 +37,14 @@ void MAZMUM_USAGE_SMT_SERVICE(const char *Service);
 
 
 
-int32_t MAZMUM_START_CISCO_ENABLE(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_CISCO_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName);
+std::atomic_int32_t MAZMUM_START_CISCO_ENABLE(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_CISCO_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName);
 
-int32_t MAZMUM_START_SMT_ENUM(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_START_SMT_ENUM(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
-int32_t MAZMUM_START_HTTP_PROXY_URL_ENUM(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-int32_t MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-int32_t MAZMUM_SERVICE_SMT_ENUM_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_START_HTTP_PROXY_URL_ENUM(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_SERVICE_SMT_ENUM_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

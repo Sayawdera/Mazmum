@@ -31,7 +31,7 @@ void MAZMUM_MONGODB_USAGE(const char *Service);
 int MAZMUM_IS_ERROR_MSG(char *Msg);
 int MAZMUM_REQUIRE_AUTH(int32_t Socket);
 
-int32_t MAZMUM_START_MONGODB(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_SERVICE_MONGODB_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_START_MONGODB(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_SERVICE_MONGODB_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMMONGODB_HXX

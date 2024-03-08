@@ -1,5 +1,14 @@
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
-#include "../Kernel/AlGhadab/MazmumAsterisk.h"
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
+#include "../Kernel/AlGhadab/MazmumAsteris.hxx"
+
+using namespace std;
 
 
 

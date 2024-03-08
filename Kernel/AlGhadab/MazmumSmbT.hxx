@@ -48,11 +48,11 @@ void MAZMUM_SMB_USAGE(const char *Service);
 
 bool SMB_RUN_TEST(MAZMUM_CRES_T *Mct, const char *Server, uint16_t PORT);
 
-int32_t MAZMUM_START_SIP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_START_SIP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 
-int32_t MAZMUM_SM_T_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_SM_T_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

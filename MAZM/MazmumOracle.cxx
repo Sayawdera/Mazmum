@@ -1,3 +1,9 @@
+
+
+
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
@@ -5,8 +11,10 @@
 #include <stdbool.h>
 #include <sys/types.h>
 
-#include "MazmumMod.h"
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
+#include "../Kernel/AlGhadab/MazmumOracle.hxx"
 
+using namespace std;
 
 
 

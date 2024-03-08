@@ -1,3 +1,11 @@
-//
-// Created by Ali Ibn Abu Talib on 15.02.2024.
-//
+#include <iostream>
+#include <atomic>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../../Kernel/AlGhadab/MazmumMod.hxx"
+#include "../../Kernel/Net/MazmumSOCKSF.hxx"
+
+using namespace std;

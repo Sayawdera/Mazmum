@@ -26,8 +26,8 @@ void MAZMUM_DEBUG_PRINTF(char *Msg);
 void MAZMUM_PCANYWHERE_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
-int32_t MAZMUM_SEND_CSTRING(int32_t S, char *Crypted_String);
-int32_t MAZMUM_START_PCANYWHERE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_PCANYWHERE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_SEND_CSTRING(int32_t S, char *Crypted_String);
+std::atomic_int32_t MAZMUM_START_PCANYWHERE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_PCANYWHERE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMPCANYWHERE_HXX

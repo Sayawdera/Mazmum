@@ -24,12 +24,12 @@
 
 extern char quiet;
 
-extern void MAZMUM_CHILD_EXIT(int32_t code);
-extern void MAZMUM_REGISTER_SOCKET(int32_t s);
-extern void MAZMUM_COMPLETED_PAIR();
-extern void MAZMUM_COMPLETED_PAIR_FOUND();
-extern void MAZMUM_COMPLETED_PAIR_SKIP();
-extern void MAZMUM_REPORT_FOUND(int32_t PORT, char *svc, FILE *fp);
+extern void MazmumChildExit(int32_t code);
+extern void MazmumRegisterSocket(int32_t s);
+extern void MazmumCompletedPair();
+extern void MazmumCompletePairSecond();
+extern void MazmumCompletedPairSkip();
+extern void MazmumReportFound(int32_t PORT, char *svc, FILE *fp);
 extern void MAZMUM_REPORT_PASSWORD_FOUND(int32_t port, char *ip, char *svc, FILE *fp);
 extern void MAZMUM_REPORT_FOUND_HOST(int32_t port, char *ip, char *svc, FILE *fp);
 extern void MAZMUM_REPORT_FOUND_HOST_MSG(int32_t port, char *ip, char *svc, FILE *fp, char *msg);
@@ -50,24 +50,24 @@ extern char *MAZMUM_RECEIVE_LINE(int32_t socket);
 
 extern unsigned char MAZMUM_CONV64(unsigned char in);
 
-extern int32_t MAZMUM_CONNECT_TO_SSL(int32_t socket, char *hostname);
-extern int32_t MAZMUM_CONNECT_SSL(char *host, int32_t port, char *hostname);
-extern int32_t MAZMUM_CONNECT_TCP(char *host, int32_t port);
-extern int32_t MAZMUM_CONNECT_UDP(char *host, int32_t port);
-extern int32_t MAZMUM_DISCONNECT(int32_t socket);
-extern int32_t MAZMUM_DATA_READY(int32_t socket);
-extern int32_t MAZMUM_RECV(int32_t socket, char *buf, uint32_t length);
-extern int32_t MAZMUM_RECV_NB(int32_t socket, char *buf, uint32_t length);
-extern int32_t MAZMUM_SEND(int32_t socket, char *buf, uint32_t size, int32_t options);
-extern int32_t MAZMUM_MAKE_TO_LOWER(char *buf);
-extern int32_t MAZMUM_MEMSEARCH(char *haystack, int32_t hlen, char *needle, int32_t nlen);
+extern std::atomic_int32_t MAZMUM_CONNECT_TO_SSL(int32_t socket, char *hostname);
+extern std::atomic_int32_t MAZMUM_CONNECT_SSL(char *host, int32_t port, char *hostname);
+extern std::atomic_int32_t MAZMUM_CONNECT_TCP(char *host, int32_t port);
+extern std::atomic_int32_t MAZMUM_CONNECT_UDP(char *host, int32_t port);
+extern std::atomic_int32_t MAZMUM_DISCONNECT(int32_t socket);
+extern std::atomic_int32_t MAZMUM_DATA_READY(int32_t socket);
+extern std::atomic_int32_t MAZMUM_RECV(int32_t socket, char *buf, uint32_t length);
+extern std::atomic_int32_t MAZMUM_RECV_NB(int32_t socket, char *buf, uint32_t length);
+extern std::atomic_int32_t MAZMUM_SEND(int32_t socket, char *buf, uint32_t size, int32_t options);
+extern std::atomic_int32_t MAZMUM_MAKE_TO_LOWER(char *buf);
+extern std::atomic_int32_t MAZMUM_MEMSEARCH(char *haystack, int32_t hlen, char *needle, int32_t nlen);
 
 
 #ifdef HAVE_PCRE
 int32_t MAZMUM_STRING_MATCH(char *str, const char *regex);
 #endif
 
-char *MAZMUM_STRING_REPLACE(const char *string, const char *substr, const char *replacement);
+char *MazmumStringReplace(const char *string, const char *substr, const char *replacement);
 
 
 int32_t mazmum_debug;

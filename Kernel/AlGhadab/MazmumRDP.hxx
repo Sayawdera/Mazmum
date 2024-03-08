@@ -28,6 +28,8 @@ void MAZMUM_RDP_USAGE(const char *Service);
 BOOL MAZMUM_RDP_CONNECT(char *Server, int32_t PORT, char *Domain, char *Login, char *Password);
 
 
-int32_t MAZMUM_START_RDP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_RDP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_START_RDP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_RDP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+
+
 #endif MAZMUM_MAZMUMRDP_HXX

@@ -23,8 +23,8 @@ void MAZMUM_RLOGIN_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_
 
 
 
-int32_t MAZMUM_START_RLOGIN(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_SERVICE_RLOGIN_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_START_RLOGIN(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_SERVICE_RLOGIN_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

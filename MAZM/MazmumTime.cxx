@@ -1,5 +1,14 @@
-#include "Mazmum.cxx"
+#include <iostream>
+#include <atomic>
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
+#include "../Kernel/AlGhadab/MazmumTime.hxx"
+
+using namespace std;
 #ifndef __WINT__
 
 int32_t MAZMUM_SLEEPN(time_t MAZM_Seconds)

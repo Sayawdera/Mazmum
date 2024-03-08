@@ -1,9 +1,18 @@
+
+
+
+#include <iostream>
+#include <atomic>
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <inttypes.h>
 #include <openssl/des.h>
 
-#include "../Kernel/AlGhadab/MazmumMod.h"
+#include "../Kernel/AlGhadab/MazmumMod.hxx"
 #include "../Kernel/AlGhadab/MazmumOracleSid.hxx"
+
+using namespace std;
 
 #define MAZMUM_HASH_SIZE 17
 

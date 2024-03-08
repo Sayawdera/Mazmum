@@ -54,7 +54,7 @@ char MAZMUM_MYSQL_PARSE_RESPONSE(unsigned char *Response);
 char MAZMUM_MYSQL_SEND_COM_QUIT(int32_t Socket);
 char *MAZMUM_SCRAMBLE(char *To, const char *Message, const char *Password);
 
-int32_t MAZMUM_MYSQL_START(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_MYSQL_START(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp);
 
 double MAZMUM_RND(struct MAZMUM_RAND_STRUCT *Rand_Str);
 

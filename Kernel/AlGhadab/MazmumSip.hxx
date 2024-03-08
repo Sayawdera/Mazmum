@@ -35,13 +35,13 @@ void MAZMUM_SIP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S
 
 char *MAZMUM_GET_IFACE_IP(uint64_t IP);
 
-int32_t MAZMUM_GET_SIP_CODE(char *Buf);
+std::atomic_int32_t MAZMUM_GET_SIP_CODE(char *Buf);
 
-int32_t MAZMUM_START_SIP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_START_SIP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 
-int32_t MAZMUM_SIP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_SIP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

@@ -96,7 +96,7 @@ void MAZMUM_PASSWORD_TO_KEY_SHA(u_char *Password, u_int Password_Len, u_char *En
 void MAZMUM_SERVICE_SNMP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 void MAZMUM_SNMP_USAGE(const char *Service);
 
-int32_t MAZMUM_START_SNMP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_SNMP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_START_SNMP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_SNMP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMSNMP_HXX

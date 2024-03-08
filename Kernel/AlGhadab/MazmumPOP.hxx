@@ -35,9 +35,9 @@ void MAZMUM_POP_USAGE(const char *Service);
 char *MAZMUM_POP_READ_SERVER_CAPACITY(int32_t Socket);
 
 
-int32_t MAZMUM_POP_INIT_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-int32_t MAZMUM_LIST_REMOVE(MAZMUM_POOL *Node);
-int32_t MAZMUM_START_POP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_POP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_POP_INIT_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MAZMUM_LIST_REMOVE(MAZMUM_POOL *Node);
+std::atomic_int32_t MAZMUM_START_POP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_POP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMPOP_HXX

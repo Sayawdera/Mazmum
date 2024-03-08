@@ -29,7 +29,7 @@ void MAZMUM_MEMCACHED_SERVICE(char *IP, int32_t PORT, unsigned char Options, int
 int MAZMUM_MEMCACHED_SEND_COM_QUIT(int32_t Socket);
 int MAZMUM_MEMCACHED_SEND_COM_VERSION(int32_t Socket);
 
-int32_t MAZMUM_START_MEMCACHED(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
-int32_t MAZMUM_MEMCACHED_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_START_MEMCACHED(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MAZMUM_MEMCACHED_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
 
 #endif MAZMUM_MAZMUMMEMCACHED_HXX
