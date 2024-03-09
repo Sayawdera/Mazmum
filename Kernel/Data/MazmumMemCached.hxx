@@ -17,7 +17,7 @@
 
 
 #ifndef LIBMCACHED
-void MAZMUM_DUMMY_MEMCACHED();
+void MazmumDummyMemCached();
 #else
 
 extern int32_t MAZMUM_DATA_READY_TIMED(int32_t Socket, long Second, long NanoSecond);

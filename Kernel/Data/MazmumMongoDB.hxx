@@ -17,21 +17,21 @@
 void MAZMUM_DUMMY_MONGODB();
 #endif
 
-extern int32_t MAZMUM_DATA_READY_TIMED(int32_t Socket, long Second, long NanoSecond);
-extern MAZMUM_OPTION __MAZMUM_OPTION_T;
+extern int32_t MazmumDataReadyTimed(int32_t Socket, long Second, long NanoSecond);
+extern MAZMUM_OPTION_T __MAZMUM_OPTION_T;
 extern char *MAZMUM_EXID;
 
 char *Buf;
 
 #define DEFAULT_DB "admin"
 
-void MAZMUM_MONGODB_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_MONGODB_USAGE(const char *Service);
+void MazmumMongoDBService(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumMongoDBUsage(const char *Service);
 
-int MAZMUM_IS_ERROR_MSG(char *Msg);
-int MAZMUM_REQUIRE_AUTH(int32_t Socket);
+int MazmumIsErrorMsg(char *Msg);
+int MazmumRequireAuth(int32_t Socket);
 
-std::atomic_int32_t MAZMUM_START_MONGODB(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_SERVICE_MONGODB_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumStartMongoDB(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumServiceMongoDBINIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMMONGODB_HXX

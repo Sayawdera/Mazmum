@@ -26,37 +26,37 @@
 MYSQL *mysql = NULL;
 #endif
 
-void MAZMUM_DUMMY_MYSQL(void);
-void MAZMUM_MYSQL_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_HASH_PASSWORD(unsigned long *Result, const char *Password);
+void MazmumDummyMySQL(void);
+void MazmumMySqlService(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumHashPassword(unsigned long *Result, const char *Password);
 
-char *MAZMUM_SCRAMBLE(char *To, const char *Message, const char *Password);
+char *MazmumScramble(char *To, const char *Message, const char *Password);
 
 
-extern int32_t MAZMUM_INTERNAL_RECV(int32_t Socket, char *Buf, int32_t Length);
-extern int32_t MAZMUM_DATA_READY_TIMED(int32_t Socket, long *Second, long NanoSecond);
+extern int32_t MazmumInternalRecv(int32_t Socket, char *Buf, int32_t Length);
+extern int32_t MazmumDataReadyTimed(int32_t Socket, long *Second, long NanoSecond);
 
-extern int32_t MAZMUM_DATA_READY_TIMED(int32_t Socket, long Second, long NanoSecond);
-extern MAZMUM_OPTION __MAZMUM_OPTION_T;
+extern int32_t MazmumDataReadyTimed(int32_t Socket, long Second, long NanoSecond);
+extern MAZMUM_OPTION_T __MAZMUM_OPTION_T;
 extern char *MAZMUM_EXID;
 char MySQLSALT[9];
 
-void MAZMUM_MYSQL_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_RANDOM_INIT(struct MAZMUM_RAND_STRUCT *Rand_Str, unsigned long Seed_One, unsigned long Seed_Two);
-void MAZMUM_HASH_PASSWORD(unsigned long *Result, const char *Password);
-void MAZMUM_MYSQL_USAGE(const char *Service);
+void MazmumMySqlService(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumRandomINIT(struct MAZMUM_RAND_STRUCT *Rand_Str, unsigned long Seed_One, unsigned long Seed_Two);
+void MazmumHashPassword(unsigned long *Result, const char *Password);
+void MazmumMySqlUsage(const char *Service);
 
-char *MAZMUM_MYSQL_RECEIVE_LINE(int32_t Socket);
-char *MAZMUM_MYSQL_PREPARE_AUTH(char *Login, char *Password);
+char *MazmumMySqlReceiveLine(int32_t Socket);
+char *MazmumMySqlPrePareAuth(char *Login, char *Password);
 
-char MAZMUM_MYSQL_INIT(int32_t Socket);
-char MAZMUM_MYSQL_PARSE_RESPONSE(unsigned char *Response);
-char MAZMUM_MYSQL_SEND_COM_QUIT(int32_t Socket);
-char *MAZMUM_SCRAMBLE(char *To, const char *Message, const char *Password);
+char MazmumMySqlINIT(int32_t Socket);
+char MazmumMySqlParseResponse(unsigned char *Response);
+char MazmumMySqlSendComQuit(int32_t Socket);
+char *MazmumScramble(char *To, const char *Message, const char *Password);
 
-std::atomic_int32_t MAZMUM_MYSQL_START(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumMySqlStart(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp);
 
-double MAZMUM_RND(struct MAZMUM_RAND_STRUCT *Rand_Str);
+double MazmumRnd(struct MAZMUM_RAND_STRUCT *Rand_Str);
 
 // #else
 
