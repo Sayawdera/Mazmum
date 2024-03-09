@@ -9,6 +9,8 @@
 #include "../Kernel/AlGhadab/MazmumCobaltStrike.hxx"
 
 using namespace std;
+
+
 /*
 |===========================================================
 |    MAZMUM_SERVICE_COBALTSTRIKE()
@@ -17,7 +19,7 @@ using namespace std;
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_COBALTSTRIKE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
+void MazmumCobaltStrikeService(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
 {
 
 }
@@ -31,7 +33,7 @@ void MAZMUM_SERVICE_COBALTSTRIKE(char *IP, int32_t PORT, unsigned char Options, 
 |
 |===========================================================
 */
-int32_t MAZMUM_START_COBALTSTRIKE(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp)
+std::atomic_int32_t MazmumStartCobaltStrike(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp)
 {
     return 0;
 }
@@ -44,7 +46,7 @@ int32_t MAZMUM_START_COBALTSTRIKE(int32_t S, char *IP, int32_t PORT, unsigned ch
 |
 |===========================================================
 */
-int32_t MAZMUM_SERVICE_COBALTSTRIKE_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
+std::atomic_int32_t MazmumCobaltStrikeServiceINIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
 {
     return 0;
 }

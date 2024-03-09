@@ -34,6 +34,6 @@ static svn_error_t *MazmumPrintDummy(void *Baton, const char *Path, const svn_di
 static svn_error_t *MazmumPromptCallback(svn_auth_cred_simple_t **Cred, void *Baton, const char *Realm, const char *Username, svn_boolean_t MaySave, apr_pool_t *Pool);
 
 std::atomic_int32_t MazmumStartSVN(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, FILE *Fp);
-std::atomic_int32_t MazmumSVN_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumSVNINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMSVN_ICC

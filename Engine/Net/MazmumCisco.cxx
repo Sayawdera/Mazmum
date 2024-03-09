@@ -6,6 +6,7 @@
 #include <inttypes.h>
 
 #include "../../Kernel/AlGhadab/MazmumMod.hxx"
-#include "../../Kernel/Net/MazmumCisco.hxx"
+#include "../../Kernel/Al/MazmumCisco.hxx"
 
 using namespace std;
+

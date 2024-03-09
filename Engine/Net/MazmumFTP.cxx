@@ -20,7 +20,7 @@ using namespace std;
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_FTP_ENGINE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName, int32_t TLS)
+void MazmumServiceFtpEngine(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName, int32_t TLS)
 {
 
 }
@@ -33,7 +33,7 @@ void MAZMUM_SERVICE_FTP_ENGINE(char *IP, int32_t PORT, unsigned char Options, in
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_FTP(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumServiceFtp(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }
@@ -46,7 +46,7 @@ void MAZMUM_SERVICE_FTP(char *IP, int32_t PORT, unsigned char Options, char *Mis
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_FTPS(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumServiceFtps(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }
@@ -59,7 +59,7 @@ void MAZMUM_SERVICE_FTPS(char *IP, int32_t PORT, unsigned char Options, char *Mi
 |
 |===========================================================
 */
-int32_t MAZMUM_START_FTP(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp)
+int32_t MazmumStartFtp(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp)
 {
     return 0;
 }
@@ -72,7 +72,9 @@ int32_t MAZMUM_START_FTP(char *IP, int32_t PORT, unsigned char Options, int32_t 
 |
 |===========================================================
 */
-int32_t MAZMUM_SERVICE_FTP_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+int32_t MazmumServiceFtpINIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 0;
 }
+
+
