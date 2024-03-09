@@ -33,10 +33,10 @@ void MazmumHashPassword(unsigned long *Result, const char *Password);
 char *MazmumScramble(char *To, const char *Message, const char *Password);
 
 
-extern int32_t MazmumInternalRecv(int32_t Socket, char *Buf, int32_t Length);
-extern int32_t MazmumDataReadyTimed(int32_t Socket, long *Second, long NanoSecond);
+extern std::atomic_int32_t MazmumInternalRecv(int32_t Socket, char *Buf, int32_t Length);
+extern std::atomic_int32_t MazmumDataReadyTimed(int32_t Socket, long *Second, long NanoSecond);
 
-extern int32_t MazmumDataReadyTimed(int32_t Socket, long Second, long NanoSecond);
+extern std::atomic_int32_t MazmumDataReadyTimed(int32_t Socket, long Second, long NanoSecond);
 extern MAZMUM_OPTION_T __MAZMUM_OPTION_T;
 extern char *MAZMUM_EXID;
 char MySQLSALT[9];
