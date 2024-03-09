@@ -35,16 +35,16 @@ const int32_t *__MAZMUM_C_TYPE_TO_B;
 extern void MAZMUM_FLOOD();
 
 
-void MAZMUM_DUMMY_SAPR(void);
-void MAZMUM_SAPR_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_SAPR_USAGE(const char *Service);
+void MazmumDummySapr(void);
+void MazmumSaprService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumSaprUsage(const char *Service);
 
 
-std::atomic_int32_t MAZMUM_START_SAPR(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumSaprStart(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 
-std::atomic_int32_t MAZMUM_SAPR_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumSaprServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

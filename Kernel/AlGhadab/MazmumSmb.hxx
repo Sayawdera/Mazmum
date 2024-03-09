@@ -49,25 +49,26 @@ std::atomic_int32_t smb_auth_mechanism = MAZMUM_AUTH_NTLM;
 std::atomic_int32_t security_mode = MAZM_ENCRYPTED;
 
 
-static void MAZMUM_MAKE_KEY(unsigned char *Key, unsigned char *Des_Key);
-void MAZMUM_DES_ENCRYPT(unsigned char *Clear, unsigned char *Key, unsigned char *Cipher);
-void MAZMUM_SMB_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_SMB_SERVICE_USAGE(const char *Service);
+static void MazmumMakeKey(unsigned char *Key, unsigned char *Des_Key);
+void MazmumDesEncrypt(unsigned char *Clear, unsigned char *Key, unsigned char *Cipher);
+void MazmumSmbService(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumSmbServiceUsage(const char *Service);
 
-std::atomic_int32_t MAZMUM_HASH_LM(unsigned char **LmHash, unsigned char *Password, unsigned char *Challenge);
-std::atomic_int32_t MAZMUM_MAKE_NTLM(unsigned char *Ntlm_Hash, unsigned char *Password);
-std::atomic_int32_t MAZMUM_MAKE_LMV(unsigned char **LMV_Hash, unsigned char *SZ_Login, unsigned char *SZ_Password);
-std::atomic_int32_t MAZMUM_MAKE_NTLMV(unsigned char **LMV_Hash, int32_t *IBtyeCount, unsigned char *SZ_Login, unsigned char *SZ_Password);
-std::atomic_int32_t MAZMUM_HASH_NTLM(unsigned char **NTLM_Hash, unsigned char *Password, unsigned char *Challenge, char *MiscPTR);
-std::atomic_int32_t MAZMUM_NBS_SESSION_REQUEST(int32_t Socket);
-std::atomic_int32_t MAZMUM_SMB_NEG_PORT(int32_t Socket);
-std::atomic_int32_t MAZMUM_START_SM_(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_SMB_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumHashLm(unsigned char **LmHash, unsigned char *Password, unsigned char *Challenge);
+std::atomic_int32_t MazmumMakeNtlm(unsigned char *Ntlm_Hash, unsigned char *Password);
+std::atomic_int32_t MazmumMakeLmv(unsigned char **LMV_Hash, unsigned char *SZ_Login, unsigned char *SZ_Password);
+std::atomic_int32_t MazmumMakeNtlmv(unsigned char **LMV_Hash, int32_t *IBtyeCount, unsigned char *SZ_Login, unsigned char *SZ_Password);
+std::atomic_int32_t MazmumHashNtlm(unsigned char **NTLM_Hash, unsigned char *Password, unsigned char *Challenge, char *MiscPTR);
+std::atomic_int32_t MazmumNbsSessionRequest(int32_t Socket);
+std::atomic_int32_t MazmumSmbNegPort(int32_t Socket);
+std::atomic_int32_t MazmumSmbNegPort(int32_t Socket);
+std::atomic_int32_t MazmumStartSmb(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumSmbServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *MiscPTR, FILE *Fp, char *HostName);
 
-unsigned long MAZMUM_SMB_SESSION_SETUP(int32_t S, unsigned char *SZ_Login, unsigned char *SZ_Password, char *MiscPTR);
+unsigned long MazmumSmbSessionSetup(int32_t S, unsigned char *SZ_Login, unsigned char *SZ_Password, char *MiscPTR);
 
-static size_t MAZMUM_UTF8_UTF16_LE(unsigned char *In, int32_t InSIze, unsigned char *Out, int32_t OutSize);
-static unsigned char MAZMUM_GET_78_BITS(unsigned char *Input, int32_t Start_Byte);
+static size_t MazmumUtf6Utf16Le(unsigned char *In, int32_t InSIze, unsigned char *Out, int32_t OutSize);
+static unsigned char MazmumGet78Bts(unsigned char *Input, int32_t Start_Byte);
 
 
 

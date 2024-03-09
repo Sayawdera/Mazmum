@@ -14,7 +14,7 @@
 #define RFB33 1
 #define RFB37 2
 
-extern MAZMUM_OPTION_t __Mazmum_Option;
+extern MAZMUM_OPTION_T __Mazmum_Option;
 extern char *MAZMUM_EXIT;
 extern char *Buf;
 

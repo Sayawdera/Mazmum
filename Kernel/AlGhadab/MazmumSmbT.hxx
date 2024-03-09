@@ -42,17 +42,17 @@ const char *netbios_name = NULL;
 #define MAZMUM_EXIT_NORMAL MAZMUM_CHILD_EXIT(0)
 
 
-void MAZMUM_SMB_AUTH_PROVIDER(MAZM_SMB_CTX *Ctx, const char *Srv, const char *Shr, char *Wg, int WgLen, char *Un, int UnLen, char *Pw, int PwLen);
-void MAZMUM_SMB_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_SMB_USAGE(const char *Service);
+void MazmumSmbAuthProvider(MAZM_SMB_CTX *Ctx, const char *Srv, const char *Shr, char *Wg, int WgLen, char *Un, int UnLen, char *Pw, int PwLen);
+void MazmumSmbService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumSmbUsage(const char *Service);
 
-bool SMB_RUN_TEST(MAZMUM_CRES_T *Mct, const char *Server, uint16_t PORT);
+bool MazmumSmbServiceUsage(MAZMUM_CRES_T *Mct, const char *Server, uint16_t PORT);
 
-std::atomic_int32_t MAZMUM_START_SIP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumStartSep(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 
-std::atomic_int32_t MAZMUM_SM_T_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumSmtServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

@@ -22,7 +22,7 @@ void MazmumVMAuthDUsage(const char *Service);
 
 
 std::atomic_int32_t MazmumStartVMAuthD(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MazmumVMAuthDService_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumVMAuthDServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

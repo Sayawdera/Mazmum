@@ -40,7 +40,7 @@ extern std::atomic_int32_t MazmumDataReadyTimed(int32_t Socket, long Second, lon
 void MazmumTeamSpeakService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 std::atomic_int32_t MazmumStartTeamSpeak(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MazmumTeamSpeak_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumTeamSpeakINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 #endif MAZMUM_MAZMUMTEAMSPEAK_ICC

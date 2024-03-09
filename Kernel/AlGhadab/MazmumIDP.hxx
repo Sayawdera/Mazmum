@@ -21,8 +21,8 @@ void MazmumIDPCramService(char *IP, int32_t PORT, unsigned char Options, int32_t
 
 void MazmumIDPUsage(const char *Service);
 
-std::atomic_int32_t MAZMUM_START_IDP(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName, char Version, int32_t Mazmum_Auth_Method);
-std::atomic_int32_t MAZMUM_IDP_SERVICE_INT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumStartIDP(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName, char Version, int32_t Mazmum_Auth_Method);
+std::atomic_int32_t MazmumIDPServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

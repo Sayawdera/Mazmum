@@ -34,14 +34,14 @@ sb4 o_errorcode;
 
 
 
-void MAZMUM_DUMMY_ORACLE(void);
-void MAZMUM_PRINT_ORACLE_ERROR(char **Err);
-void MAZMUM_ORACLE_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_ORACLE_USAGE(const char *Service);
+void MazmumDummyOracle(void);
+void MazmumPrintOracleError(char **Err);
+void MazmumOracleService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumOracleUsage(const char *Service);
 
 
-std::atomic_int32_t MAZMUM_START_ORACLE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_ORACLE_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumStartOracle(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumOracleServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

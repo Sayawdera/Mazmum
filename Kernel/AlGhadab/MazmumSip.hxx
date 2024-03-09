@@ -26,22 +26,22 @@ char Mazmum_External_IP_Address[17] = "";
 
 int32_t CSeq;
 
-extern int32_t MAZMUM_DATA_READY_TIME(int32_t Socket, long Second, long NanoSecond);
+extern int32_t MazmumDataReadyTime(int32_t Socket, long Second, long NanoSecond);
 
 
-void MAZMUM_DUMMY_SIP(void);
-void MAZMUM_EMPTY_REGISTER(char *Buf, char *Host, char LHost, int32_t PORT, int32_t LPORT, char *User);
-void MAZMUM_SIP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumDummySip(void);
+void MazmumEmptyRegister(char *Buf, char *Host, char LHost, int32_t PORT, int32_t LPORT, char *User);
+void MazmumSipService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
-char *MAZMUM_GET_IFACE_IP(uint64_t IP);
+char *MazmumGetIFaceIp(uint64_t IP);
 
-std::atomic_int32_t MAZMUM_GET_SIP_CODE(char *Buf);
+std::atomic_int32_t MazmumGetSipCode(char *Buf);
 
-std::atomic_int32_t MAZMUM_START_SIP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumSipStart(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 
-std::atomic_int32_t MAZMUM_SIP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumSipServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

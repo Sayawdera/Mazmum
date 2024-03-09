@@ -32,14 +32,14 @@ struct MAZMUM_RM_MESSAGE
 
 struct MAZMUM_RM_MESSAGE *Buffer_Message(char *Bufferization);
 
-void MAZMUM_CHALLENGE_REQUEST(struct MAZMUM_RM_MESSAGE *Msg);
-void MAZMUM_CHALLENGE_RESPONSE(struct MAZMUM_RM_MESSAGE *Msg, unsigned char *Solution);
-void MAZMUM_RADMIN_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumChallengeRequest(struct MAZMUM_RM_MESSAGE *Msg);
+void MazmumChallengeResponse(struct MAZMUM_RM_MESSAGE *Msg, unsigned char *Solution);
+void MazmumRAdminService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
-char *MAZMUM_MESSAGE_BUFFERIZATION(struct MAZMUM_RM_MESSAGE *Msg);
+char *MazmumMessageBufferization(struct MAZMUM_RM_MESSAGE *Msg);
 
-std::atomic_int32_t MAZMUM_CHECKSUM(struct MAZMUM_RM_MESSAGE *Msg);
-std::atomic_int32_t MAZMUM_START_RADMIN(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_RADMIN_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumCheckSum(struct MAZMUM_RM_MESSAGE *Msg);
+std::atomic_int32_t MazmumStartRAdmin(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumRAdminServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMRADMIN_HXX

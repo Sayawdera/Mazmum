@@ -29,15 +29,15 @@ typedef struct MAZMUM_POOL_STR
 
 MAZMUM_POOL *PList = NULL, *MP_Ptr = NULL;
 
-void MAZMUM_POP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_POP_USAGE(const char *Service);
+void MazmumPopService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumPopUsage(const char *Service);
 
-char *MAZMUM_POP_READ_SERVER_CAPACITY(int32_t Socket);
+char *MazmumPopReadServerCapACity(int32_t Socket);
 
 
-std::atomic_int32_t MAZMUM_POP_INIT_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-std::atomic_int32_t MAZMUM_LIST_REMOVE(MAZMUM_POOL *Node);
-std::atomic_int32_t MAZMUM_START_POP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_POP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumPopInitService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumListRemove(MAZMUM_POOL *Node);
+std::atomic_int32_t MazmumStartPop(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumPopServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMPOP_HXX

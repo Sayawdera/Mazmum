@@ -20,7 +20,7 @@
 
 #define MAZMUM_BRANCH "Trunk" // Or LYNX or MAZM
 
-extern MAZMUM_OPTION __Mazmum_Option;
+extern MAZMUM_OPTION_T __Mazmum_Option;
 extern char *MAZMUM_EXIT;
 extern char *Buf;
 

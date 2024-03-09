@@ -30,40 +30,40 @@ extern void MazmumCompletedPair();
 extern void MazmumCompletePairSecond();
 extern void MazmumCompletedPairSkip();
 extern void MazmumReportFound(int32_t PORT, char *svc, FILE *fp);
-extern void MAZMUM_REPORT_PASSWORD_FOUND(int32_t port, char *ip, char *svc, FILE *fp);
-extern void MAZMUM_REPORT_FOUND_HOST(int32_t port, char *ip, char *svc, FILE *fp);
-extern void MAZMUM_REPORT_FOUND_HOST_MSG(int32_t port, char *ip, char *svc, FILE *fp, char *msg);
-extern void MAZMUM_REPORT_DEBUG(FILE *st, char *format, ...);
-extern void MAZMUM_TOBASE64(unsigned char *buf, uint32_t buflen, uint32_t bufsize);
-extern void MAZMUM_DUMP_ASCII_HEX(unsigned char *string, int32_t length);
-extern void MAZMUM_SET_SRC_PORT(int32_t port);
-extern void MAZMUM_DUMP_DATA(unsigned char *buf, int32_t len, char *text);
+extern void MazmumReportPasswordFound(int32_t port, char *ip, char *svc, FILE *fp);
+extern void MazmumReportFoundHost(int32_t port, char *ip, char *svc, FILE *fp);
+extern void MazmumReportFoundHostMsg(int32_t port, char *ip, char *svc, FILE *fp);
+extern void MazmumReportDebug(FILE *st, char *format, ...);
+extern void MazmumToBase64(unsigned char *buf, uint32_t buflen, uint32_t bufsize);
+extern void MazmumDumpASCIIHex(unsigned char *string, int32_t length);
+extern void MazmumSetSercPort(int32_t port);
+extern void MazmumDumpData(unsigned char *buf, int32_t len, char *text);
 
-extern char *MAZMUM_GET_NEXT_PAIR();
-extern char *MAZMUM_GET_NEXT_LOGIN();
-extern char *MAZMUM_GET_NEXT_PASSWORD();
-extern char *MAZMUM_ADDRESS2string(char *address);
-extern char *MAZMUM_ADDRESS2string_beautiful(char *address);
-extern char *MAZMUM_STRCASESTR(const char *haystack, const char *needle);
-extern char *MAZMUM_STRREP(char *string, char *oldpiece, char *newpiece);
-extern char *MAZMUM_RECEIVE_LINE(int32_t socket);
+extern char *MazmumGetNexPair();
+extern char *MazmumGetNextLogin();
+extern char *MazmumGetNextPassword();
+extern char *MazmumAddressTwString(char *address);
+extern char *MazmumAdressTwStringBeautiful(char *address);
+extern char *MazmumStrCase(const char *haystack, const char *needle);
+extern char *MazmumStrRep(char *string, char *oldpiece, char *newpiece);
+extern char *MazmumReceiveLink(int32_t socket);
 
-extern unsigned char MAZMUM_CONV64(unsigned char in);
+extern unsigned char MazmumConv64(unsigned char in);
 
-extern std::atomic_int32_t MAZMUM_CONNECT_TO_SSL(int32_t socket, char *hostname);
-extern std::atomic_int32_t MAZMUM_CONNECT_SSL(char *host, int32_t port, char *hostname);
-extern std::atomic_int32_t MAZMUM_CONNECT_TCP(char *host, int32_t port);
-extern std::atomic_int32_t MAZMUM_CONNECT_UDP(char *host, int32_t port);
-extern std::atomic_int32_t MAZMUM_DISCONNECT(int32_t socket);
-extern std::atomic_int32_t MAZMUM_DATA_READY(int32_t socket);
-extern std::atomic_int32_t MAZMUM_RECV(int32_t socket, char *buf, uint32_t length);
-extern std::atomic_int32_t MAZMUM_RECV_NB(int32_t socket, char *buf, uint32_t length);
-extern std::atomic_int32_t MAZMUM_SEND(int32_t socket, char *buf, uint32_t size, int32_t options);
-extern std::atomic_int32_t MAZMUM_MAKE_TO_LOWER(char *buf);
-extern std::atomic_int32_t MAZMUM_MEMSEARCH(char *haystack, int32_t hlen, char *needle, int32_t nlen);
+extern std::atomic_int32_t MazmumConnectToSSL(int32_t socket, char *hostname);
+extern std::atomic_int32_t MazmumConnectSSL(char *host, int32_t port, char *hostname);
+extern std::atomic_int32_t MazmumConnectTCP(char *host, int32_t port);
+extern std::atomic_int32_t MazmumConnectUDP(char *host, int32_t port);
+extern std::atomic_int32_t MazmumDisconnect(int32_t socket);
+extern std::atomic_int32_t MazmumDataReady(int32_t socket);
+extern std::atomic_int32_t MazmumRecv(int32_t socket, char *buf, uint32_t length);
+extern std::atomic_int32_t MazmumRecvNb(int32_t socket, char *buf, uint32_t length);
+extern std::atomic_int32_t MazmumSend(int32_t socket, char *buf, uint32_t size, int32_t options);
+extern std::atomic_int32_t MazmumMakeToLower(char *buf);
+extern std::atomic_int32_t MazmumMemSearch(char *haystack, int32_t hlen, char *needle, int32_t nlen);
 
 
-#ifdef HAVE_PCRE
+#ifdef HAVE_PCREy
 int32_t MAZMUM_STRING_MATCH(char *str, const char *regex);
 #endif
 

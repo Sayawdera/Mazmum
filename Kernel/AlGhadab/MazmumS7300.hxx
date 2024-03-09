@@ -25,15 +25,15 @@ unsigned char MAZMUM_P_S7300_NEGOTIATE_PDU[];
 unsigned char MAZMUM_P_S7300_READ_SIZE[];
 unsigned char MAZMUM_P_S7300_PASSWORD_REQUEST[];
 
-void MAZMUM_S7300_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_S7300_USAGE(const char *Service);
+void MazmumS7300Service(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumS7300Usage(const char *Service);
 
 
-std::atomic_int32_t MAZMUM_S7300_START(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumS7300Start(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 
-std::atomic_int32_t MAZMUM_S7300_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumS7300ServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 
