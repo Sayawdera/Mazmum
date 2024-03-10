@@ -88,15 +88,15 @@ struct MAZMUM_SNMP_V1_W __MAZMUM_SNMP_V1_W = {
 };
 
 
-extern int32_t MAZMUM_DATA_READY_TIMED(int32_t Socket, long Second, long NanoSecond);
+extern int32_t MazmumDataReadyTimed(int32_t Socket, long Second, long NanoSecond);
 
-void MAZMUM_PASSWORD_TO_KEY_MD5(u_char *Password, u_int Password_Len, u_char *EngineID, u_int Engine_Len, u_char *Key);
-void MAZMUM_PASSWORD_TO_KEY_SHA(u_char *Password, u_int Password_Len, u_char *EngineID, u_int Engine_Len, u_char *Key);
+void MazmumPasswordToKeyMd5(u_char *Password, u_int Password_Len, u_char *EngineID, u_int Engine_Len, u_char *Key);
+void MazmumPasswordToKeySha(u_char *Password, u_int Password_Len, u_char *EngineID, u_int Engine_Len, u_char *Key);
 
-void MAZMUM_SERVICE_SNMP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_SNMP_USAGE(const char *Service);
+void MazmumServiceSnmp(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumSnmpUsage(const char *Service);
 
-std::atomic_int32_t MAZMUM_START_SNMP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_SNMP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumStartSnmp(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumSnmpServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMSNMP_HXX

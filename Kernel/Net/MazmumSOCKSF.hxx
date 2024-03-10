@@ -2,7 +2,7 @@
 #define MAZMUM_MAZMUMSOCKSF_HXX
 
 
-#include "../AlGhadab/MazmumMod.h"
+#include "../AlGhadab/MazmumMod.hxx"
 
 extern char *MAZMUM_EXIT;
 unsigned char *Buf;
@@ -24,7 +24,7 @@ int fail_cnt;
 extern char *MAZMUM_EXIT;
 unsigned char *Buf;
 
-std::atomic_int32_t MazmumFailCnt;
+int32_t MazmumFailCnt;
 
 void MazmumServiceSocksF(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 

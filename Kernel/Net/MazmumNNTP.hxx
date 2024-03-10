@@ -19,12 +19,12 @@ int32_t Mazmum_NNTP_Auth_Mechaniscm = MAZMUM_AUTH_CLEAR;
 extern char *MAZMUM_EXIT;
 char *Buf;
 
-void MAZMUM_NNTP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_NNTP_USAGE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumNntpService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumNntpUsage(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
-char *MAZMUM_NNTP_READ_SERVER_CAPACITY(int32_t Socket);
+char *MazmumNntpReadServerCapACity(int32_t Socket);
 
-std::atomic_int32_t MAZMUM_NNTP_START(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumNntpStart(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
 
 
 

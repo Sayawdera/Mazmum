@@ -62,7 +62,7 @@ struct MAZMUM_HEADER_NODE MAZMUM_HEADER_INITIALIZE(char *IP, int32_t PORT, unsig
 |
 |===========================================================
 */
-void MAZMUM_HDRREP(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *OldValue, char *NewValue)
+void MazmumHdrRep(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *OldValue, char *NewValue)
 {
 
 }
@@ -75,7 +75,7 @@ void MAZMUM_HDRREP(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *OldValue, char *NewVa
 |
 |===========================================================
 */
-void MAZMUM_HDRREPV(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *HDRName, char *NewValue)
+void mazmumHdrRepv(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *HDRName, char *NewValue)
 {
 
 }
@@ -88,7 +88,7 @@ void MAZMUM_HDRREPV(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *HDRName, char *NewVa
 |
 |===========================================================
 */
-void MAZMUM_CLEAN_UP(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
+void MazmumCleanUp(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 {
 
 }
@@ -101,7 +101,7 @@ void MAZMUM_CLEAN_UP(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 |
 |===========================================================
 */
-void MAZMUM_RECONNECT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *HostName)
+void MazmumReConnect(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *HostName)
 {
 
 }
@@ -114,7 +114,7 @@ void MAZMUM_RECONNECT(char *IP, int32_t PORT, unsigned char Options, int32_t S, 
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, struct MAZMUM_COOKIE_NODE Ptr_Cookie)
+void MazmumServiceHttpFound(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, struct MAZMUM_COOKIE_NODE Ptr_Cookie)
 {
 
 }
@@ -127,7 +127,7 @@ void MAZMUM_SERVICE_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, cha
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_HTTP_GET_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumServiceHttpGetForm(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }
@@ -140,7 +140,7 @@ void MAZMUM_SERVICE_HTTP_GET_FORM(char *IP, int32_t PORT, unsigned char Options,
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_HTTP_SET_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumServiceHttpSetForm(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }
@@ -157,7 +157,7 @@ void MAZMUM_SERVICE_HTTP_SET_FORM(char *IP, int32_t PORT, unsigned char Options,
 |
 |===========================================================
 */
-int32_t MAZMUM_APPEND_COOKIE(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *LastCookie)
+std::atomic_int32_t MazmumAppendCookie(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *LastCookie)
 {
    return 1;
 }
@@ -170,7 +170,7 @@ int32_t MAZMUM_APPEND_COOKIE(char *Name, char *Value, MAZMUM_COOKIE_NODE_PTR *La
 |
 |===========================================================
 */
-int32_t MAZMUM_ADD_OR_UPDATE_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
+std::atomic_int32_t MazmumAddOrUpdateCookie(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
 {
    return 1;
 }
@@ -183,7 +183,7 @@ int32_t MAZMUM_ADD_OR_UPDATE_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *Co
 |
 |===========================================================
 */
-int32_t MAZMUM_PROCESS_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
+std::atomic_int32_t MazmumProcessCookie(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieExp)
 {
     return 1;
 }
@@ -196,7 +196,7 @@ int32_t MAZMUM_PROCESS_COOKIE(MAZMUM_COOKIE_NODE_PTR *PTR_COOKIE, char *CookieEx
 |
 |===========================================================
 */
-int32_t MAZMUM_ADD_HEADER(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *Value, char Type)
+std::atomic_int32_t MazmumAddHeader(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *Value, char Type)
 {   
     return 1;
 }
@@ -209,7 +209,7 @@ int32_t MAZMUM_ADD_HEADER(MAZMUM_COOKIE_NODE_PTR *PTR_Head, char *Header, char *
 |
 |===========================================================
 */
-int32_t MAZMUM_PARSE_OPTIONS(char *MiscPTR, MAZMUM_COOKIE_NODE_PTR *PTR_Head)
+std::atomic_int32_t MazmumParseOptions(char *MiscPTR, MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 {   
     return 1;
 }
@@ -222,7 +222,7 @@ int32_t MAZMUM_PARSE_OPTIONS(char *MiscPTR, MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 |
 |===========================================================
 */
-int32_t MAZMUM_STRPOS(char *Str, char *Target)
+std::atomic_int32_t MazmumStrPos(char *Str, char *Target)
 {
     return 1;
 }
@@ -235,7 +235,7 @@ int32_t MAZMUM_STRPOS(char *Str, char *Target)
 |
 |===========================================================
 */
-int32_t MAZMUM_ANALYZE_SERVER_RESPONSE(int32_t S)
+std::atomic_int32_t MazmumAnalyzeServerResponse(int32_t S)
 {
     return 1;
 }
@@ -248,7 +248,7 @@ int32_t MAZMUM_ANALYZE_SERVER_RESPONSE(int32_t S)
 |
 |===========================================================
 */
-int32_t MAZMUM_START_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, struct MAZMUM_COOKIE_NODE Ptr_Cookie)
+std::atomic_int32_t MazmumStartHttpForm(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, char *HostName, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head, struct MAZMUM_COOKIE_NODE Ptr_Cookie)
 {
     return 1;
 }
@@ -261,7 +261,7 @@ int32_t MAZMUM_START_HTTP_FORM(char *IP, int32_t PORT, unsigned char Options, ch
 |
 |===========================================================
 */
-int32_t MAZMUM_SERVICE_HTTP_FORM_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumServiceHttpFormINIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
@@ -277,7 +277,7 @@ int32_t MAZMUM_SERVICE_HTTP_FORM_INIT(char *IP, int32_t PORT, unsigned char Opti
 |
 |===========================================================
 */
-char *MAZMUM_STNDRUP(const char *S, size_t N)
+char *MazmumStndRup(const char *S, size_t N)
 {
 
 }
@@ -290,7 +290,7 @@ char *MAZMUM_STNDRUP(const char *S, size_t N)
 |
 |===========================================================
 */
-char *MAZMUM_STRINGIFY_COOKIES(MAZMUM_COOKIE_NODE_PTR PTR_COOKIE)
+char *MazmumStringIfyCookies(MAZMUM_COOKIE_NODE_PTR PTR_COOKIE)
 {
 
 }
@@ -303,7 +303,7 @@ char *MAZMUM_STRINGIFY_COOKIES(MAZMUM_COOKIE_NODE_PTR PTR_COOKIE)
 |
 |===========================================================
 */
-char *MAZMUM_STRINGFY_HEADERS(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
+char *MazmumStringIfyHeaders(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 {
 
 }
@@ -316,7 +316,7 @@ char *MAZMUM_STRINGFY_HEADERS(MAZMUM_COOKIE_NODE_PTR *PTR_Head)
 |
 |===========================================================
 */
-char *MAZMUM_PREPARE_HTTP_REQUEST(char *Type, char *Path, char *Params, char *Headers)
+char *MazmumPerPageHttpRequest(char *Type, char *Path, char *Params, char *Headers)
 {
 
 }
@@ -329,7 +329,7 @@ char *MAZMUM_PREPARE_HTTP_REQUEST(char *Type, char *Path, char *Params, char *He
 |
 |===========================================================
 */
-char *MAZMUM_HTML_ENCODE(char *String)
+char *MazmumHtmlEncode(char *String)
 {
     
 }
@@ -345,7 +345,7 @@ char *MAZMUM_HTML_ENCODE(char *String)
 |
 |===========================================================
 */
-void MAZMUM_USAGE_HTTP_FORM(const char *Service)
+void MazmumUsageHttpForm(const char *Service)
 {
 
 }

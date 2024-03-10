@@ -20,7 +20,7 @@ using namespace std;
 |
 |===========================================================
 */
-void MAZMUM_FIX_PACKAGE(char *Buf, int32_t Len)
+void MazmumFixPackage(char *Buf, int32_t Len)
 {
 
 }
@@ -33,7 +33,7 @@ void MAZMUM_FIX_PACKAGE(char *Buf, int32_t Len)
 |
 |===========================================================
 */
-void MAZMUM_ICQ_HEADER(char *Buf, unsigned short CMD, unsigned long Uin)
+void MazmumIcqHeader(char *Buf, unsigned short CMD, unsigned long Uin)
 {
 
 }
@@ -48,7 +48,7 @@ void MAZMUM_ICQ_HEADER(char *Buf, unsigned short CMD, unsigned long Uin)
 |
 |===========================================================
 */
-int32_t MAZMUM_ICQ_LOGIN(int32_t S, char *Login, char *Password)
+std::atomic_int32_t MazmumIcqLogin(int32_t S, char *Login, char *Password)
 {
     return 1;
 }
@@ -61,7 +61,7 @@ int32_t MAZMUM_ICQ_LOGIN(int32_t S, char *Login, char *Password)
 |
 |===========================================================
 */
-int32_t MAZMUM_ICQ_LOGIN_l(int32_t S, char *Login)
+std::atomic_int32_t MazmumIcqLoginL(int32_t S, char *Login)
 {
     return 1;
 }
@@ -74,7 +74,7 @@ int32_t MAZMUM_ICQ_LOGIN_l(int32_t S, char *Login)
 |
 |===========================================================
 */
-int32_t MAZMUM_ICQ_DISCONNECT(int32_t S, char *Login)
+std::atomic_int32_t mazmumIcqDisconnect(int32_t S, char *Login)
 {
     return 1;
 }
@@ -87,7 +87,7 @@ int32_t MAZMUM_ICQ_DISCONNECT(int32_t S, char *Login)
 |
 |===========================================================
 */
-int32_t MAZMUM_ICQ_ACK(int32_t S, char *Login)
+std::atomic_int32_t MazmumIcqAck(int32_t S, char *Login)
 {
     return 1;
 }
@@ -100,7 +100,7 @@ int32_t MAZMUM_ICQ_ACK(int32_t S, char *Login)
 |
 |===========================================================
 */
-int32_t MAZMUM_ICQ_START(char *IP, int32_t PORT, int32_t Socket, FILE *Output, char *MiscPTR, FILE *Fp)
+std::atomic_int32_t MazmumIcqStart(char *IP, int32_t PORT, int32_t Socket, FILE *Output, char *MiscPTR, FILE *Fp)
 {
     return 1;
 }
@@ -113,7 +113,7 @@ int32_t MAZMUM_ICQ_START(char *IP, int32_t PORT, int32_t Socket, FILE *Output, c
 |
 |===========================================================
 */
-int32_t MAZMUM_ICQ_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumIcqServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
@@ -128,7 +128,7 @@ int32_t MAZMUM_ICQ_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, i
 |
 |===========================================================
 */
-void MAZMUM_ICQ_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
+void mazmumIcqService(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }

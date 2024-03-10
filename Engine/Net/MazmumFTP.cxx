@@ -59,7 +59,7 @@ void MazmumServiceFtps(char *IP, int32_t PORT, unsigned char Options, char *Misc
 |
 |===========================================================
 */
-int32_t MazmumStartFtp(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp)
+std::atomic_int32_t MazmumStartFtp(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp)
 {
     return 0;
 }
@@ -72,7 +72,7 @@ int32_t MazmumStartFtp(char *IP, int32_t PORT, unsigned char Options, int32_t S,
 |
 |===========================================================
 */
-int32_t MazmumServiceFtpINIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumServiceFtpINIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 0;
 }

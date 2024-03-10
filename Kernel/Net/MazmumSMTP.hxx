@@ -21,16 +21,16 @@ char *Err = NULL;
 int32_t ToSent = 0;
 int32_t Mazmum_Smtp_Auth_Mechanism = MAZMUM_AUTH_LOGIN;
 
-void MAZMUM_SMTP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
-void MAZMUM_SMTP_USAGE(const char *Service);
+void MazmumSmtpService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+void MazmumSmtpUsage(const char *Service);
 
 
-char *MAZMUM_SMTP_READ_SERVER_CAPACITY(int32_t Socket);
+char *MazmumSmtpReadServerCapACity(int32_t Socket);
 
 
 
-std::atomic_int32_t MAZMUM_START_SMTP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MAZMUM_SMTP_SERVICE_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumStartSmtp(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
+std::atomic_int32_t MazmumSmtpServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 
 

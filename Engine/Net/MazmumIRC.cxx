@@ -20,7 +20,7 @@ using namespace std;
 |
 |===========================================================
 */
-void MAZMUM_IRC_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumIrcService(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }
@@ -33,7 +33,7 @@ void MAZMUM_IRC_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t S
 |
 |===========================================================
 */
-int32_t MAZMUM_START_OPER_IRC(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp)
+std::atomic_int32_t MazmumStartOperIrc(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp)
 {
     return 1;
 }
@@ -47,7 +47,7 @@ int32_t MAZMUM_START_OPER_IRC(char *IP, int32_t PORT, unsigned char Options, int
 |
 |===========================================================
 */
-int32_t MAZMUM_IRC_SERVER_CONNECT(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *HostName)
+std::atomic_int32_t MazmumIrcServerConnect(char *IP, int32_t PORT, unsigned char Options, int32_t Socket, char *HostName)
 {
     return 1;
 }
@@ -61,7 +61,7 @@ int32_t MAZMUM_IRC_SERVER_CONNECT(char *IP, int32_t PORT, unsigned char Options,
 |
 |===========================================================
 */
-int32_t MAZMUM_START_PASSWORD_IRC(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumStartPasswordIrc(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
@@ -75,7 +75,7 @@ int32_t MAZMUM_START_PASSWORD_IRC(char *IP, int32_t PORT, unsigned char Options,
 |
 |===========================================================
 */
-int32_t MAZMUM_SERVICE_IRC_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumServiceIrcINIT(char *IP, int32_t PORT, unsigned char Options, int32_t S, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
@@ -90,7 +90,7 @@ int32_t MAZMUM_SERVICE_IRC_INIT(char *IP, int32_t PORT, unsigned char Options, i
 |
 |===========================================================
 */
-void MAZMUM_IRC_USAGE(const char *Service)
+void MazmumIrcUsage(const char *Service)
 {
 
 }

@@ -25,7 +25,7 @@ using namespace std;
 |
 |===========================================================
 */
-void MAZMUM_NNTP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumNntpService(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }
@@ -40,7 +40,7 @@ void MAZMUM_NNTP_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t 
 |
 |===========================================================
 */
-char *MAZMUM_NNTP_READ_SERVER_CAPACITY(int32_t Socket)
+char *MazmumNntpReadServerCapACity(int32_t Socket)
 {
 
 }
@@ -53,7 +53,7 @@ char *MAZMUM_NNTP_READ_SERVER_CAPACITY(int32_t Socket)
 |
 |===========================================================
 */
-int32_t MAZMUM_NNTP_START(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp)
+std::atomic_int32_t MazmumNntpStart(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp)
 {
     return 1;
 }
@@ -68,7 +68,7 @@ int32_t MAZMUM_NNTP_START(char *IP, int32_t PORT, unsigned char Options, int32_t
 |
 |===========================================================
 */
-void MAZMUM_NNTP_USAGE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
+void MazmumNntpUsage(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
 {
 
 }

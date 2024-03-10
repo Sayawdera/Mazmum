@@ -73,7 +73,7 @@ void MAZMUM_HTTP_HEAD_SERVICE(char *IP, int32_t PORT, unsigned char Options, int
 |
 |===========================================================
 */
-int32_t MAZMUM_START_HTTP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head)
+std::atomic_int32_t MAZMUM_START_HTTP(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *Type, mazmum_ptr_node_header Ptr_Head)
 {
     return 1;
 }
@@ -86,7 +86,7 @@ int32_t MAZMUM_START_HTTP(char *IP, int32_t PORT, unsigned char Options, int32_t
 |
 |===========================================================
 */
-int32_t MAZMUM_HTTP_INIT_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MAZMUM_HTTP_INIT_SERVICE(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
