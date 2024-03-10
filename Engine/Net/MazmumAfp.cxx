@@ -42,7 +42,12 @@ void MazmumStdOutFct(void *PrivPTR, enum LogLevel, int32_t LogType, const char *
 |===========================================================
 |    MazmumServiceAfp()
 |===========================================================
-|
+| Этот метод является частью сетевой службы Mazmum и
+| предназначен для управления обменом данными с протоколом
+| Apple Filing Protocol (AFP). Он обеспечивает установку и
+| поддержание соединения, осуществляет настройку, и
+| делегирует фактическую работу по обмену данными
+| через AFP другим функциям.
 |
 |===========================================================
 */
@@ -102,7 +107,6 @@ void MazmumServiceAfp(char *IP, int32_t PORT, unsigned char Options, char *MiscP
             Run = NextRun;
         }
     }
-
 }
 
 /*
@@ -128,7 +132,13 @@ static std::atomic_int32_t MazmumServerSubConnection(struct MAZMUM_AFP_URL MAU)
 */
 std::atomic_int32_t MazmumStartAfp(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp)
 {
+    unsigned char *Empty, *Login, *Password, MLogin[MAZMUM_AFP_USERNAME_LEN], MPassword[MAZMUM_AFP_PASSWORD_LEN];
+    struct MAZMUM_AFP_URL TmpUrl;
 
+    if (strlen(Login = MazmumGetNextLogin()) == 0)
+    {
+
+    }
 }
 
 /*
