@@ -7,9 +7,22 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <inttypes.h>
-
+#include <afpfs-ng/afp.h>
+#include <afpfs-ng/libafpclient.h>
 
 #include "../AlGhadab/MazmumMod.hxx"
+
+
+extern char *MAZMUM_EXIT;
+
+
+static struct libfpcclient afpclient = {
+        .unmount_volume = NULL,
+        .log_for_client = stdout_fct,
+        .forced_ending_hook = NULL,
+        .scan_extra_fds = NULL,
+        .loop_started = NULL,
+};
 
 void MazmumDummyAfp();
 void MazmumStdOutFct(void *PrivPTR, enum LogLevel, int32_t LogType, const char *Message);

@@ -24,6 +24,6 @@ void MazmumTelNetUsage(const char *Service);
 
 
 std::atomic_int32_t MazmumStartTelNet(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp);
-std::atomic_int32_t MazmumTelNetService_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
+std::atomic_int32_t MazmumTelNetServiceINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName);
 
 #endif MAZMUM_MAZMUMTELNET_HXX

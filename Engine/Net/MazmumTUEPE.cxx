@@ -13,26 +13,26 @@ using namespace std;
 
 /*
 |===========================================================
-|    MAZMUM_SERVICE_CISCO_ENABLE()
+|    MazmumServiceCiscoEnable()
 |===========================================================
 |
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_CISCO_ENABLE(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
+void MazmumServiceCiscoEnable(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
 {
 
 }
 
 /*
 |===========================================================
-|    MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM()
+|    MazmumServiceHttpProxyUrlEnum()
 |===========================================================
 |
 |
 |===========================================================
 */
-void MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *Hstname)
+void MazmumServiceHttpProxyUrlEnum(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *Hstname)
 {
 
 }
@@ -44,7 +44,7 @@ void MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM(char *IP, int32_t PORT, unsigned char Op
 |
 |===========================================================
 */
-int32_t MAZMUM_START_CISCO_ENABLE(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp)
+std::atomic_int32_t MazmumStartCiscoEnable(int32_t S, char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp)
 {
     return 1;
 }
@@ -57,7 +57,7 @@ int32_t MAZMUM_START_CISCO_ENABLE(int32_t S, char *IP, int32_t PORT, unsigned ch
 |
 |===========================================================
 */
-int32_t MAZMUM_CISCO_INIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
+std::atomic_int32_t MazmumCiscoINIT(char *IP, int32_t PORT, unsigned char Options, char *MiscPTR, FILE *Fp, int32_t Sp, char *HostName)
 {
     return 1;
 }
@@ -70,7 +70,7 @@ int32_t MAZMUM_CISCO_INIT(char *IP, int32_t PORT, unsigned char Options, char *M
 |
 |===========================================================
 */
-int32_t MAZMUM_START_HTTP_PROXY_URL_ENUM(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumStartHttpProxyUrlEnum(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
@@ -83,7 +83,7 @@ int32_t MAZMUM_START_HTTP_PROXY_URL_ENUM(char *IP, int32_t PORT, unsigned char O
 |
 |===========================================================
 */
-int32_t MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM_INIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
+std::atomic_int32_t MazmumServiceHttpProxyUrlEnumINIT(char *IP, int32_t PORT, unsigned char Options, int32_t Sp, char *MiscPTR, FILE *Fp, char *HostName)
 {
     return 1;
 }
@@ -97,20 +97,20 @@ int32_t MAZMUM_SERVICE_HTTP_PROXY_URL_ENUM_INIT(char *IP, int32_t PORT, unsigned
 |
 |===========================================================
 */
-void MAZMUM_USAGE_HTTP_PROXY_URL_ENUM(const char *Service)
+void MazmumUsageSmtService(const char *Service)
 {
 
 }
 
 /*
 |===========================================================
-|    MAZMUM_CISCO_ENABLE_USAGE_INFO()
+|    MazmumCiscoEnableUsageInfo()
 |===========================================================
 |
 |
 |===========================================================
 */
-void MAZMUM_CISCO_ENABLE_USAGE_INFO(void)
+void MazmumCiscoEnableUsageInfo(void)
 {
 
 }

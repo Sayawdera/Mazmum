@@ -39,7 +39,7 @@ extern void MazmumDumpASCIIHex(unsigned char *string, int32_t length);
 extern void MazmumSetSercPort(int32_t port);
 extern void MazmumDumpData(unsigned char *buf, int32_t len, char *text);
 
-extern char *MazmumGetNexPair();
+extern char *MazmumGetNextPair();
 extern char *MazmumGetNextLogin();
 extern char *MazmumGetNextPassword();
 extern char *MazmumAddressTwString(char *address);
